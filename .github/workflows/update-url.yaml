@@ -27,7 +27,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
         with:
-          enablement: true
+          enablement: false
 
       - name: Checkout branch contents
         uses: actions/checkout@v3
