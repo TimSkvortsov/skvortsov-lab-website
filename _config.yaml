@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: TimSkvortsov
+title: Skvortsov Lab
 subtitle: 
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
@@ -7,12 +7,12 @@ footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@TimSkvortsov.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: t.skvortsov@qub.ac.uk
+  orcid: 0000-0002-4048-6725
+  google-scholar: 5NYkZhkAAAAJ
   github: TimSkvortsov
   twitter: TimSkvortsov
-  youtube: TimSkvortsov
+  linkedin: timofey-skvortsov
 
 ### jekyll settings
 
