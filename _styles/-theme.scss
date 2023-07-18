@@ -1,33 +1,35 @@
 ---
 ---
 
-// colors
+/* Light Mode */
 [data-dark="false"] {
-  --primary: #0ea5e9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --overlay: #00000020;
+  --primary: #2A3278;       /* Deep, rich blue */
+  --secondary: #6D7CB8;     /* Vibrant cobalt blue */
+  --text: #000000;         /* Darker, more mysterious variant for text */
+  --background: #ffffff;   /* Very light, almost white */
+  --background-alt: #ffffff;/* Light, airy blue with a touch of lavender */
+  --light-gray: #2A3278;   /* Muted bluish-gray */
+  --gray: #808080;         /* Gray */
+  --overlay: #2A327820;    /* Base color with some transparency */
 }
+
+/* Dark Mode */
 [data-dark="true"] {
-  --primary: #0ea5e9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --overlay: #ffffff10;
+  --primary: #00b7ff;      /* Soft, periwinkle blue */
+  --secondary: #424AA5;    /* Vibrant cobalt blue for contrast */
+  --text: #ffffff;         /* Keep as is */
+  --background: #181818;   /* Keep as is */
+  --background-alt: #1c1c1c;/* Keep as is */
+  --light-gray: #404040;   /* Keep as is */
+  --gray: #808080;         /* Keep as is */
+  --overlay: #F0F1F540;    /* Keep as is */
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Exo 2", sans-serif;
+  --heading: "Poppins", sans-serif;
+  --body: "Open Sans", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes

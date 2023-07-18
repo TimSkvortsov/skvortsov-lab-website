@@ -1,133 +1,606 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1016/j.bioflm.2023.100122
+  title: Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa
+    biofilms is mediated via oxidative stress response
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Jordanne-Amee Maybin
+  - Thomas P. Thompson
+  - Padrig B. Flynn
+  - Timofey Skvortsov
+  - Noreen J. Hickok
+  - Theresa A. Freeman
+  - Brendan F. Gilmore
+  publisher: Biofilm
+  date: '2023-12-01'
+  link: https://doi.org/gsbrmc
+  orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1186/s12859-023-05341-w
+  title: 'DePolymerase Predictor (DePP): a machine learning tool for the targeted
+    identification of phage depolymerases'
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Damian J. Magill
+  - Timofey A. Skvortsov
+  publisher: BMC Bioinformatics
+  date: '2023-05-19'
+  link: https://doi.org/gsbrmb
+  orcid: 0000-0002-4048-6725
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
+    link: https://github.com/DamianJM/Depolymerase-Predictor
   - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+    link: https://timskvortsov.github.io/WebDePP/
+  image: https://timskvortsov.github.io/WebDePP/assets/DePP.png
+- id: doi:10.1101/2023.05.11.23289783
+  title: SARS-CoV-2 introductions to the island of Ireland
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
+  - Alan M. Rice
+  - Evan P. Troendle
+  - Stephen Bridgett
+  - Behnam Firoozi Nejad
+  - Jennifer M. McKinley
+  - Declan T. Bradley
+  - Derek Fairley
+  - Connor G. G. Bamford
+  - Timofey Skvortsov
+  - David A. Simpson
   publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  date: '2023-05-11'
+  link: https://doi.org/gsbrkk
+  orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: isbn:9781119434498
+  title: 'Viruses and Other Acellular Infectious Agents: Characteristics and Control'
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Timofey Skvortsov
+  - Jean-Yves Maillard
+  publisher: Hugo and Russell's Pharmaceutical Microbiology
+  date: '2023-01-01'
+  link: https://www.wiley.com/en-ie/Hugo+and+Russell's+Pharmaceutical+Microbiology,+9th+Edition-p-9781119434559
+  orcid: 0000-0002-4048-6725
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: doi:10.1186/s12967-022-03307-9
+  title: Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing
+    of SARS-CoV-2
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Marc Fuchs
+  - Clara Radulescu
+  - Miao Tang
+  - Arun Mahesh
+  - Deborah Lavin
+  - Syed Umbreen
+  - James McKenna
+  - Mark Smyth
+  - "Eil\xEDs McColgan"
+  - Zoltan Molnar
+  - Chris Baxter
+  - Timofey Skvortsov
+  - Aditi Singh
+  - Fiona Rogan
+  - Julia Miskelly
+  - Stephen Bridgett
+  - Derek Fairley
+  - David A. Simpson
+  publisher: Journal of Translational Medicine
+  date: '2022-03-03'
+  link: https://doi.org/gsbrmh
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/ijms222111536
+  title: Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy
+  authors:
+  - Artem Grigorov
+  - Oksana Bychenko
+  - Elena G. Salina
+  - Yulia Skvortsova
+  - Arina Mazurova
+  - Timofey Skvortsov
+  - Arseny Kaprelyants
+  - Tatyana Azhikina
+  publisher: International Journal of Molecular Sciences
+  date: '2021-10-26'
+  link: https://doi.org/gsbrkn
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/1462-2920.15524
+  title: "Microbiology of a\n            <scp>NaCl</scp>\n            stalactite \u2018\
+    salticle\u2019 in Triassic halite"
+  authors:
+  - Thomas P. Thompson
+  - Stephen A. Kelly
+  - Timofey Skvortsov
+  - Gill Plunkett
+  - Alastair Ruffell
+  - John E. Hallsworth
+  - Jason Hopps
+  - Brendan F. Gilmore
+  publisher: Environmental Microbiology
+  date: '2021-05-19'
+  link: https://doi.org/gsbrmp
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/microorganisms9102172
+  title: Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis
+    Biofilms
+  authors:
+  - Cormac J. Rice
+  - Stephen A. Kelly
+  - "Seamus C. O\u2019Brien"
+  - Erinn M. Melaugh
+  - Jan C. B. Ganacias
+  - Zheng Hua Chai
+  - Brendan F. Gilmore
+  - Timofey Skvortsov
+  publisher: Microorganisms
+  date: '2021-10-19'
+  link: https://doi.org/gnhchc
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1099/mgen.0.000638
+  title: Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate
+    vast taxonomic diversity, open genomes and an abundance of carbohydrate-active
+    enzyme family isoforms
+  authors:
+  - Sara E. Pidcock
+  - Timofey Skvortsov
+  - Fernanda G. Santos
+  - Stephen J. Courtney
+  - Karen Sui-Ting
+  - Christopher J. Creevey
+  - Sharon A. Huws
+  publisher: Microbial Genomics
+  date: '2021-10-04'
+  link: https://doi.org/gsbrkp
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jpclett.0c01224
+  title: 'Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates:
+    Learning From Nature'
+  authors:
+  - Mohammad Reza Ghaani
+  - Christopher C. R. Allen
+  - Timofey Skvortsov
+  - Niall J. English
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2020-06-17'
+  link: https://doi.org/gsbrmq
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/01490451.2019.1695982
+  title: Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates
+  authors:
+  - Mohammad Reza Ghaani
+  - Christopher C. R. Allen
+  - Jonathan M. Young
+  - Prithwish K. Nandi
+  - Shamsudeen U. Dandare
+  - Timofey Skvortsov
+  - Niall J. English
+  publisher: Geomicrobiology Journal
+  date: '2019-11-26'
+  link: https://doi.org/gsbrmr
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.05.31.126490
+  title: Rapid <i>Mycobacterium tuberculosis</i> spoligotyping from uncorrected long
+    reads using Galru
+  authors:
+  - Andrew J. Page
+  - Nabil-Fareed Alikhan
+  - Michael Strinden
+  - Thanh Le Viet
+  - Timofey Skvortsov
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-06-01'
+  link: https://doi.org/gsbrkq
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/619015
+  title: Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses
+  authors:
+  - Damian J. Magill
+  - Leonid A. Kulakov
+  - Timofey A. Skvortsov
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-04-25'
+  link: https://doi.org/gkxkns
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00253-019-09806-y
+  title: Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase
+    isolated from a Triassic period salt mine
+  authors:
+  - Stephen A. Kelly
+  - Damian J. Magill
+  - Julianne Megaw
+  - Timofey Skvortsov
+  - Thorsten Allers
+  - John W. McGrath
+  - Christopher C. R. Allen
+  - Thomas S. Moody
+  - Brendan F. Gilmore
+  publisher: Applied Microbiology and Biotechnology
+  date: '2019-05-23'
+  link: https://doi.org/gsbrmt
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.scitotenv.2018.11.442
+  title: Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols
+  authors:
+  - Jonathan M. Young
+  - Timofey Skvortsov
+  - Brian P. Kelleher
+  - William C. Mahaney
+  - Peeter Somelar
+  - Christopher C.R. Allen
+  publisher: Science of The Total Environment
+  date: '2019-03-01'
+  link: https://doi.org/gsbrkr
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/femsle/fnz242
+  title: 'Profiling the microbial community of a Triassic halite deposit in Northern
+    Ireland: an environment with significant potential for biodiscovery'
+  authors:
+  - Julianne Megaw
+  - Stephen A Kelly
+  - Thomas P Thompson
+  - Timofey Skvortsov
+  - Brendan F Gilmore
+  publisher: FEMS Microbiology Letters
+  date: '2019-11-01'
+  link: https://doi.org/gsbrms
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bbrc.2018.08.073
+  title: "Characterization of a novel \u03C9-transaminase from a Triassic salt mine\
+    \ metagenome"
+  authors:
+  - Stephen A. Kelly
+  - Timofey Skvortsov
+  - Damian Magill
+  - Derek J. Quinn
+  - John W. McGrath
+  - Christopher C.R. Allen
+  - Thomas S. Moody
+  - Brendan F. Gilmore
+  publisher: Biochemical and Biophysical Research Communications
+  date: '2018-09-01'
+  link: https://doi.org/gfbbp2
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/genomeA.01420-17
+  title: "Draft Genome Sequence of\n            <i>Rhodococcus</i>\n            sp.\
+    \ Strain NCIMB 12038, a Naphthalene-Degrading Bacterium"
+  authors:
+  - Shamsudeen U. Dandare
+  - Timofey Skvortsov
+  - Ksenia Arkhipova
+  - Christopher C. R. Allen
+  publisher: Genome Announcements
+  date: '2018-01-04'
+  link: https://doi.org/gsbrks
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/genomeA.01416-17
+  title: "Draft Genome Sequence of the Predatory Marine Bacterium\n            <i>Halobacteriovorax</i>\n\
+    \            sp. Strain JY17"
+  authors:
+  - Jonathan M. Young
+  - Timofey Skvortsov
+  - Ksenia Arkhipova
+  - Christopher C. R. Allen
+  publisher: Genome Announcements
+  date: '2018-01-04'
+  link: https://doi.org/gsbrkt
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1128/genomeA.01419-17
+  title: "Draft Genome Sequences of\n            <i>Pseudomonas putida</i>\n     \
+    \       UV4 and UV4/95, Toluene Dioxygenase-Expressing Producers of\n        \
+    \    <i>cis</i>\n            -1,2-Dihydrodiols"
+  authors:
+  - Timofey Skvortsov
+  - Patrick Hoering
+  - Ksenia Arkhipova
+  - Roger C. Whitehead
+  - Derek R. Boyd
+  - Christopher C. R. Allen
+  publisher: Genome Announcements
+  date: '2018-01-04'
+  link: https://doi.org/gsbrkv
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/C7CP07172H
+  title: Spatial requirement for PAMO for transformation of non-native linear substrates
+  authors:
+  - Alexandra T. P. Carvalho
+  - Daniel F. A. R. Dourado
+  - Timofey Skvortsov
+  - Miguel de Abreu
+  - Lyndsey J. Ferguson
+  - Derek J. Quinn
+  - Thomas S. Moody
+  - Meilan Huang
+  publisher: Physical Chemistry Chemical Physics
+  date: '2018-01-01'
+  link: https://doi.org/gsbrkw
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/C7CP03640J
+  title: Catalytic mechanism of phenylacetone monooxygenases for non-native linear
+    substrates
+  authors:
+  - Alexandra T. P. Carvalho
+  - Daniel F. A. R. Dourado
+  - Timofey Skvortsov
+  - Miguel de Abreu
+  - Lyndsey J. Ferguson
+  - Derek J. Quinn
+  - Thomas S. Moody
+  - Meilan Huang
+  publisher: Phys. Chem. Chem. Phys.
+  date: '2017-01-01'
+  link: https://doi.org/gsbrmv
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/ismej.2017.157
+  title: 'Temporal dynamics of uncultured viruses: a new dimension in viral diversity'
+  authors:
+  - Ksenia Arkhipova
+  - Timofey Skvortsov
+  - John P Quinn
+  - John W McGrath
+  - Christopher CR Allen
+  - Bas E Dutilh
+  - Yvonne McElarney
+  - Leonid A Kulakov
+  publisher: The ISME Journal
+  date: '2017-10-13'
+  link: https://doi.org/gb4c2q
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0150361
+  title: Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest
+    Freshwater Lake in Ireland
+  authors:
+  - Timofey Skvortsov
+  - Colin de Leeuwe
+  - John P. Quinn
+  - John W. McGrath
+  - Christopher C. R. Allen
+  - Yvonne McElarney
+  - Catherine Watson
+  - Ksenia Arkhipova
+  - Rob Lavigne
+  - Leonid A. Kulakov
+  publisher: PLOS ONE
+  date: '2016-02-29'
+  link: https://doi.org/gmsbpd
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acscatal.6b02380
+  title: "Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis\
+    \ of (1S)-1-(1,1\u2032-biphenyl-2-yl)ethanamine"
+  authors:
+  - Daniel F. A. R. Dourado
+  - Stefan Pohle
+  - Alexandra T. P. Carvalho
+  - Dharmendra S. Dheeman
+  - Jill M. Caswell
+  - Timofey Skvortsov
+  - Iain Miskelly
+  - Rodney T. Brown
+  - Derek J. Quinn
+  - Christopher C. R. Allen
+  - Leonid Kulakov
+  - Meilan Huang
+  - Thomas S. Moody
+  publisher: ACS Catalysis
+  date: '2016-10-17'
+  link: https://doi.org/f9bw8c
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12864-015-2197-6
+  title: Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant
+    mRNA
+  authors:
+  - Dmitriy V. Ignatov
+  - Elena G. Salina
+  - Mikhail V. Fursov
+  - Timofey A. Skvortsov
+  - Tatyana L. Azhikina
+  - Arseny S. Kaprelyants
+  publisher: BMC Genomics
+  date: '2015-11-16'
+  link: https://doi.org/f8cgv8
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1155/2014/857329
+  title: Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species
+  authors:
+  - Oksana S. Bychenko
+  - Lyubov V. Sukhanova
+  - Tatyana L. Azhikina
+  - Timofey A. Skvortsov
+  - Tuyana V. Belomestnykh
+  - Eugene D. Sverdlov
+  publisher: BioMed Research International
+  date: '2014-01-01'
+  link: https://doi.org/gb83vk
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1134/s1068162014020058
+  title: Expression of small RNAs of Mycobacterium tuberculosis in murine models of
+    tuberculosis infection
+  authors:
+  - D. V. Ignatov
+  - O. Yu. Timoshina
+  - N. N. Logunova
+  - T. A. Skvortsov
+  - T. L. Azhikina
+  publisher: Russian Journal of Bioorganic Chemistry
+  date: '2014-03-01'
+  link: https://doi.org/gsbrk2
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmc:PMC3695354
+  title: Mycobacterium tuberculosis transcriptome profiling in mice with genetically
+    different susceptibility to tuberculosis
+  authors:
+  - T A Skvortsov
+  - D V Ignatov
+  - K B Majorov
+  - A S Apt
+  - T L Azhikina
+  publisher: Acta Naturae
+  date: '2013-01-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-84887388464&partnerID=MN8TOARS
+  orcid: 0000-0002-4048-6725
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1371/journal.pone.0074209
+  title: RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome
+  authors:
+  - Dmitriy Ignatov
+  - Sofia Malakho
+  - Konstantin Majorov
+  - Timofey Skvortsov
+  - Alexander Apt
+  - Tatyana Azhikina
+  publisher: PLoS ONE
+  date: '2013-09-16'
+  link: https://doi.org/gsbrk3
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1134/s1068162012040139
+  title: Adaptive changes in gene expression of Mycobacterium tuberculosis during
+    the development of the infection
+  authors:
+  - T. A. Skvortsov
+  - T. L. Azhikina
+  publisher: Russian Journal of Bioorganic Chemistry
+  date: '2012-07-01'
+  link: https://doi.org/gsbrk4
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1134/s1068162012040085
+  title: Novel small RNAs from Mycobacterium avium
+  authors:
+  - D. V. Ignatov
+  - L. G. Mefodieva
+  - K. B. Majorov
+  - T. A. Skvortsov
+  - T. L. Azhikina
+  publisher: Russian Journal of Bioorganic Chemistry
+  date: '2012-07-01'
+  link: https://doi.org/gsbrk5
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cancergen.2011.07.010
+  title: "Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter\
+    \ methylation in non\u2013small cell lung cancer and surrounding tissues"
+  authors:
+  - Tatyana Azhikina
+  - Alena Kozlova
+  - Timofey Skvortsov
+  - Eugene Sverdlov
+  publisher: Cancer Genetics
+  date: '2011-09-01'
+  link: https://doi.org/d2mhr2
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2144/000113350
+  title: A new technique for obtaining whole pathogen transcriptomes from infected
+    host tissues
+  authors:
+  - Tatyana L. Azhikina
+  - Timofey A. Skvortsov
+  - Tatyana V. Radaeva
+  - Andrey V. Mardanov
+  - Nikolay V. Ravin
+  - Alexander S. Apt
+  - Eugene D. Sverdlov
+  publisher: BioTechniques
+  date: '2010-02-01'
+  link: https://doi.org/cbsnbz
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1134/s106816201005002x
+  title: 'A review of the transcriptome analysis of bacterial pathogens in vivo: Problems
+    and solutions'
+  authors:
+  - T. A. Skvortsov
+  - T. L. Azhikina
+  publisher: Russian Journal of Bioorganic Chemistry
+  date: '2010-09-01'
+  link: https://doi.org/d7jx85
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: pmid:22649654
+  title: Adaptive changes in Mycobacterium avium gene expression profile following
+    infection of genetically susceptible and resistant mice
+  authors:
+  - D V Ignatov
+  - T A Skvortsov
+  - K B Majorov
+  - A S Apt
+  - T L Azhikina
+  publisher: Acta Naturae
+  date: '2010-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22649654
+  orcid: 0000-0002-4048-6725
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1134/s1068162009010117
+  title: Genome similarity of Baikal omul and sig
+  authors:
+  - O. S. Bychenko
+  - L. V. Sukhanova
+  - S. S. Ukolova
+  - T. A. Skvortsov
+  - V. K. Potapov
+  - T. L. Azhikina
+  - E. D. Sverdlov
+  publisher: Russian Journal of Bioorganic Chemistry
+  date: '2009-01-01'
+  link: https://doi.org/d9zwvq
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml

@@ -1,7 +1,9 @@
 {% assign image = page.header | default: site.header | relative_url %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% assign svg = "images/logo.svg" | file_exists %}
+{% assign svg = "images/logo_NEW.svg" | file_exists %}
+{% assign svg1 = "images/logo1.svg" | file_exists %}
+{% assign svg2 = "images/SkvortsovLab_NEW7_logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
@@ -12,15 +14,21 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
+  {%- comment -%}
   {% if page.url == "/" %}
     data-big
   {% endif %}
+  {%- endcomment -%}
 >
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
         {% if svg %}
-          {{ svg | file_read }}
+          {% if page.url == "/" %}
+            {{ svg2 | file_read }}
+          {% else %}
+            {{ svg2 | file_read }}
+          {% endif %}
         {% else %}
           <img src="{{ logo | relative_url }}" alt="logo">
         {% endif %}

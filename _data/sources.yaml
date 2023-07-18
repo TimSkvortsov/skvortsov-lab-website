@@ -1,23 +1,20 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+- id: doi:10.1186/s12859-023-05341-w
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
     - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
+      link: https://github.com/DamianJM/Depolymerase-Predictor
     - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+      link: https://timskvortsov.github.io/WebDePP/
+  image: https://timskvortsov.github.io/WebDePP/assets/DePP.png
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: pmid:22649654
+  date: '2010-01-01'
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: pmc:PMC3695354
+  date: '2013-01-01'
+
+- id: isbn:9781119434498
+  authors:
+    - Timofey Skvortsov
+    - Jean-Yves Maillard
+  link: https://www.wiley.com/en-ie/Hugo+and+Russell's+Pharmaceutical+Microbiology,+9th+Edition-p-9781119434559
+  date: '2023-01-01'

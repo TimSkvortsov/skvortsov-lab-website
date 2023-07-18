@@ -1,35 +1,51 @@
 ---
-title: Contact
+title: Contact us
 nav:
   order: 5
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}How to find us
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are based at the School of Pharmacy, Queen's University Belfast. If you would like to get in touch, please use the contact details below. If you prefer to visit us in person, please see the map at the bottom of the page.
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="t.skvortsov@qub.ac.uk"
+  link="t.skvortsov@qub.ac.uk"
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  type="twitter"
+  text="@timskvortsov"
+  link="https://twitter.com/timskvortsov"
+%}
+{%
+  include button.html
+  type="linkedin"
+  text="TimSkvortsov"
+  link="https://www.linkedin.com/in/timofey-skvortsov"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://goo.gl/maps/hnACmhLNwUfvyZvC6"
 %}
 
+
+{% include section.html %}
+<h2 class="center">Our address</h2>
+<p class="center">
+Room 03.013, McClay Research Centre<br> 
+School of Pharmacy, Queen's University Belfast<br> 
+97 Lisburn Road, Belfast BT9 7BL, Northern Ireland, UK<br>
+</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2suk!4v1687938404343!5m2!1sen!2suk!6m8!1m7!1suFv7XpnaIotmBrNqc3IZ9A!2m2!1d54.58648951327463!2d-5.942735977660377!3f243.37527671740742!4f5.574387228770917!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{%- comment -%}
 {% include section.html %}
 
 {% capture col1 %}
@@ -75,3 +91,4 @@ sed do eiusmod tempor
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
+{%- endcomment -%}

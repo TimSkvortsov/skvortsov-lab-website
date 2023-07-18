@@ -1,7 +1,8 @@
 # site properties and page defaults
 title: Skvortsov Lab
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+subtitle:
+logo-text: false 
+description: "Skvortsov Lab at Queen's University Belfast: bacteriophages, biotechnology, and bioinformatics"
 header: images/background.jpg
 footer: images/background.jpg
 
@@ -37,7 +38,7 @@ defaults:
 collections:
   # generate page for each member
   members:
-    output: true
+    output: yes
   # generate page for each post
   posts:
     output: true
