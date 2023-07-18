@@ -17,6 +17,11 @@
   box-shadow: var(--shadow);
 }
 
+.figure-image-no-shadow img {
+  border-radius: var(--rounded);
+  overflow: hidden;
+}
+
 .figure-caption {
   font-style: italic;
   text-align: center;

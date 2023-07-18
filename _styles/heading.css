@@ -12,7 +12,8 @@ h1 {
   font-weight: var(--regular);
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
+  color: var(--primary);
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
   font-weight: var(--regular);
   letter-spacing: 1px;
   text-align: left;
+  color: var(--primary);
 }
 
 h3 {
