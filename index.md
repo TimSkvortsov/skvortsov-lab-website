@@ -65,7 +65,7 @@ Take a look at our publications to learn more about our research and see what we
 
 {%
   include feature.html
-  image="images/publications.png"
+  image="images/Publications.png"
   link="publications"
   title="Our Publications"
   flip=true
