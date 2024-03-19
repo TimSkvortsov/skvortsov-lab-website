@@ -21,10 +21,7 @@ links:
 defaults:
   # all markdown files
   - scope:
-      path: "research"
-      path: "publications"
-      path: "team"
-      path: "contact"
+      path: ""
     values:
       layout: default
   # markdown files in /_members
