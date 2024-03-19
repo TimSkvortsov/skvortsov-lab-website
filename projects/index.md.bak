@@ -38,21 +38,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Projects | Skvortsov Lab</title>
+<title>Skvortsov Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Projects">
+<meta name="title" content="">
 <meta name="description" content="Skvortsov Lab at Queen's University Belfast: bacteriophages, biotechnology, and bioinformatics">
 
-<meta property="og:title" content="Projects">
+<meta property="og:title" content="">
 <meta property="og:site_title" content="Skvortsov Lab">
 <meta property="og:description" content="Skvortsov Lab at Queen's University Belfast: bacteriophages, biotechnology, and bioinformatics">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Projects">
+<meta property="twitter:title" content="">
 <meta property="twitter:description" content="Skvortsov Lab at Queen's University Belfast: bacteriophages, biotechnology, and bioinformatics">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
@@ -68,9 +68,9 @@
     
       "@type": "WebSite",
     
-    "name": "Projects",
+    "name": "",
     "description": "Skvortsov Lab at Queen's University Belfast: bacteriophages, biotechnology, and bioinformatics",
-    "headline": "Projects",
+    "headline": "",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -610,28 +610,10 @@
     
       
         <a
-          href="/projects/"
-          data-tooltip="Software, datasets, and more"
-        >
-          Projects
-        </a>
-      
-    
-      
-        <a
           href="/team/"
           data-tooltip="About our team"
         >
           Team
-        </a>
-      
-    
-      
-        <a
-          href="/blog/"
-          data-tooltip="Musings and miscellany"
-        >
-          Blog
         </a>
       
     
@@ -670,7 +652,14 @@
     
     
   >
-    # <i class="icon fa-solid fa-wrench"></i>Projects
+    ---
+title: Projects
+nav:
+  order: 2
+  tooltip: Software, datasets, and more
+---
+
+# <i class="icon fa-solid fa-wrench"></i>Projects
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
