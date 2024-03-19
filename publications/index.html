@@ -90,9 +90,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -353,6 +353,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -457,8 +459,20 @@
       
     
       
+        <a href="/projects/" data-tooltip="Software, datasets, and more">
+          Projects
+        </a>
+      
+    
+      
         <a href="/team/" data-tooltip="About our team">
           Team
+        </a>
+      
+    
+      
+        <a href="/blog/" data-tooltip="Musings and miscellany">
+          Blog
         </a>
       
     
@@ -476,11 +490,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -518,77 +529,82 @@
 
 <h3 id="2023">2023</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmc" class="citation-image" aria-label="Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa biofilms is mediated via oxidative stress response">
-      <img src="" alt="Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa biofilms is mediated via oxidative stress response" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmc" class="citation-image" aria-label="Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa biofilms is mediated via oxidative stress response">
+        <img src="" alt="Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa biofilms is mediated via oxidative stress response" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmc" class="citation-title">
-      Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa biofilms is mediated via oxidative stress response
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Jordanne-Amee Maybin, Thomas P. Thompson, Padrig B. Flynn, Timofey Skvortsov, Noreen J. Hickok, Theresa A. Freeman, Brendan F. Gilmore
+      <a href="https://doi.org/gsbrmc" class="citation-title">
+        Cold atmospheric pressure plasma-antibiotic synergy in Pseudomonas aeruginosa biofilms is mediated via oxidative stress response
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jordanne-Amee Maybin, Thomas P. Thompson, Padrig B. Flynn, Timofey Skvortsov, Noreen J. Hickok, Theresa A. Freeman, Brendan F. Gilmore
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biofilm</span>
+         · 
+        <span class="citation-date">01 Dec 2023</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.bioflm.2023.100122</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Biofilm
-        ·  
-      01 Dec 2023
-        ·  
-      doi:10.1016/j.bioflm.2023.100122
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmb" class="citation-image" aria-label="DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases">
-      <img src="https://timskvortsov.github.io/WebDePP/assets/DePP.png" alt="DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmb" class="citation-image" aria-label="DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases">
+        <img src="https://timskvortsov.github.io/WebDePP/assets/DePP.png" alt="DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmb" class="citation-title">
-      DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Damian J. Magill, Timofey A. Skvortsov
-    </div>
-
-    <div class="citation-details">
-      BMC Bioinformatics
-        ·  
-      19 May 2023
-        ·  
-      doi:10.1186/s12859-023-05341-w
-    </div>
-
-    
+    <div class="citation-text">
+      
       
 
+      <a href="https://doi.org/gsbrmb" class="citation-title">
+        DePolymerase Predictor (DePP): a machine learning tool for the targeted identification of phage depolymerases
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Damian J. Magill, Timofey A. Skvortsov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">BMC Bioinformatics</span>
+         · 
+        <span class="citation-date">19 May 2023</span>
+         · 
+        <span class="citation-id">doi:10.1186/s12859-023-05341-w</span>
+      </div>
+
       
-        <div class="citation-buttons">
-          
+        
+
+        
+          <div class="citation-buttons">
             
+              
 
 
 
@@ -602,8 +618,8 @@
   </div>
 
 
-          
             
+              
 
 
 
@@ -617,1365 +633,1471 @@
   </div>
 
 
-          
-        </div>
-      
+            
+          </div>
+        
 
+        
       
-    
+    </div>
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkk" class="citation-image" aria-label="SARS-CoV-2 introductions to the island of Ireland">
-      <img src="" alt="SARS-CoV-2 introductions to the island of Ireland" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrkk" class="citation-image" aria-label="SARS-CoV-2 introductions to the island of Ireland">
+        <img src="" alt="SARS-CoV-2 introductions to the island of Ireland" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrkk" class="citation-title">
-      SARS-CoV-2 introductions to the island of Ireland
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Alan M. Rice, Evan P. Troendle, Stephen Bridgett, Behnam Firoozi Nejad, Jennifer M. McKinley, Declan T. Bradley, Derek Fairley, Connor G. G. Bamford, Timofey Skvortsov, David A. Simpson
+      <a href="https://doi.org/gsbrkk" class="citation-title">
+        SARS-CoV-2 introductions to the island of Ireland
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Alan M. Rice, Evan P. Troendle, Stephen Bridgett, Behnam Firoozi Nejad, Jennifer M. McKinley, Declan T. Bradley, Derek Fairley, Connor G. G. Bamford, Timofey Skvortsov, David A. Simpson
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">11 May 2023</span>
+         · 
+        <span class="citation-id">doi:10.1101/2023.05.11.23289783</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      11 May 2023
-        ·  
-      doi:10.1101/2023.05.11.23289783
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://www.wiley.com/en-ie/Hugo+and+Russell's+Pharmaceutical+Microbiology,+9th+Edition-p-9781119434559" class="citation-image" aria-label="Viruses and Other Acellular Infectious Agents: Characteristics and Control">
-      <img src="" alt="Viruses and Other Acellular Infectious Agents: Characteristics and Control" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://www.wiley.com/en-ie/Hugo+and+Russell's+Pharmaceutical+Microbiology,+9th+Edition-p-9781119434559" class="citation-image" aria-label="Viruses and Other Acellular Infectious Agents: Characteristics and Control">
+        <img src="" alt="Viruses and Other Acellular Infectious Agents: Characteristics and Control" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://www.wiley.com/en-ie/Hugo+and+Russell's+Pharmaceutical+Microbiology,+9th+Edition-p-9781119434559" class="citation-title">
-      Viruses and Other Acellular Infectious Agents: Characteristics and Control
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Timofey Skvortsov, Jean-Yves Maillard
+      <a href="https://www.wiley.com/en-ie/Hugo+and+Russell's+Pharmaceutical+Microbiology,+9th+Edition-p-9781119434559" class="citation-title">
+        Viruses and Other Acellular Infectious Agents: Characteristics and Control
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Timofey Skvortsov, Jean-Yves Maillard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Hugo and Russell's Pharmaceutical Microbiology</span>
+         · 
+        <span class="citation-date">01 Jan 2023</span>
+         · 
+        <span class="citation-id">isbn:9781119434498</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Hugo and Russell's Pharmaceutical Microbiology
-        ·  
-      01 Jan 2023
-        ·  
-      isbn:9781119434498
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2022">2022</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmh" class="citation-image" aria-label="Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing of SARS-CoV-2">
-      <img src="" alt="Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing of SARS-CoV-2" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmh" class="citation-image" aria-label="Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing of SARS-CoV-2">
+        <img src="" alt="Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing of SARS-CoV-2" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmh" class="citation-title">
-      Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing of SARS-CoV-2
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Marc Fuchs, Clara Radulescu, Miao Tang, Arun Mahesh, Deborah Lavin, Syed Umbreen, James McKenna, Mark Smyth, Eilís McColgan, Zoltan Molnar, Chris Baxter, Timofey Skvortsov, Aditi Singh, Fiona Rogan, Julia Miskelly, Stephen Bridgett, Derek Fairley, David A. Simpson " tabindex="0">
-      Marc Fuchs, Clara Radulescu, Miao Tang, Arun Mahesh, Deborah Lavin, ..., Fiona Rogan, Julia Miskelly, Stephen Bridgett, Derek Fairley, David A. Simpson
+      <a href="https://doi.org/gsbrmh" class="citation-title">
+        Mini-XT, a miniaturized tagmentation-based protocol for efficient sequencing of SARS-CoV-2
+      </a>
+
+      <div class="citation-authors" data-tooltip="Marc Fuchs, Clara Radulescu, Miao Tang, Arun Mahesh, Deborah Lavin, Syed Umbreen, James McKenna, Mark Smyth, Eilís McColgan, Zoltan Molnar, Chris Baxter, Timofey Skvortsov, Aditi Singh, Fiona Rogan, Julia Miskelly, Stephen Bridgett, Derek Fairley, David A. Simpson " tabindex="0">
+        Marc Fuchs, Clara Radulescu, Miao Tang, Arun Mahesh, Deborah Lavin, …, Fiona Rogan, Julia Miskelly, Stephen Bridgett, Derek Fairley, David A. Simpson
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Translational Medicine</span>
+         · 
+        <span class="citation-date">03 Mar 2022</span>
+         · 
+        <span class="citation-id">doi:10.1186/s12967-022-03307-9</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Translational Medicine
-        ·  
-      03 Mar 2022
-        ·  
-      doi:10.1186/s12967-022-03307-9
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkn" class="citation-image" aria-label="Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy">
-      <img src="" alt="Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrkn" class="citation-image" aria-label="Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy">
+        <img src="" alt="Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrkn" class="citation-title">
-      Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Artem Grigorov, Oksana Bychenko, Elena G. Salina, Yulia Skvortsova, Arina Mazurova, Timofey Skvortsov, Arseny Kaprelyants, Tatyana Azhikina
+      <a href="https://doi.org/gsbrkn" class="citation-title">
+        Small RNA F6 Provides Mycobacterium smegmatis Entry into Dormancy
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Artem Grigorov, Oksana Bychenko, Elena G. Salina, Yulia Skvortsova, Arina Mazurova, Timofey Skvortsov, Arseny Kaprelyants, Tatyana Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">International Journal of Molecular Sciences</span>
+         · 
+        <span class="citation-date">26 Oct 2021</span>
+         · 
+        <span class="citation-id">doi:10.3390/ijms222111536</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      International Journal of Molecular Sciences
-        ·  
-      26 Oct 2021
-        ·  
-      doi:10.3390/ijms222111536
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gnhchc" class="citation-image" aria-label="Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis Biofilms">
-      <img src="" alt="Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis Biofilms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gnhchc" class="citation-image" aria-label="Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis Biofilms">
+        <img src="" alt="Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis Biofilms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gnhchc" class="citation-title">
-      Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis Biofilms
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Cormac J. Rice, Stephen A. Kelly, Seamus C. O’Brien, Erinn M. Melaugh, Jan C. B. Ganacias, Zheng Hua Chai, Brendan F. Gilmore, Timofey Skvortsov
+      <a href="https://doi.org/gnhchc" class="citation-title">
+        Novel Phage-Derived Depolymerase with Activity against Proteus mirabilis Biofilms
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Cormac J. Rice, Stephen A. Kelly, Seamus C. O’Brien, Erinn M. Melaugh, Jan C. B. Ganacias, Zheng Hua Chai, Brendan F. Gilmore, Timofey Skvortsov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Microorganisms</span>
+         · 
+        <span class="citation-date">19 Oct 2021</span>
+         · 
+        <span class="citation-id">doi:10.3390/microorganisms9102172</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Microorganisms
-        ·  
-      19 Oct 2021
-        ·  
-      doi:10.3390/microorganisms9102172
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkp" class="citation-image" aria-label="Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate vast taxonomic diversity, open genomes and an abundance of carbohydrate-active enzyme family isoforms">
-      <img src="" alt="Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate vast taxonomic diversity, open genomes and an abundance of carbohydrate-active enzyme family isoforms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrkp" class="citation-image" aria-label="Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate vast taxonomic diversity, open genomes and an abundance of carbohydrate-active enzyme family isoforms">
+        <img src="" alt="Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate vast taxonomic diversity, open genomes and an abundance of carbohydrate-active enzyme family isoforms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrkp" class="citation-title">
-      Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate vast taxonomic diversity, open genomes and an abundance of carbohydrate-active enzyme family isoforms
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Sara E. Pidcock, Timofey Skvortsov, Fernanda G. Santos, Stephen J. Courtney, Karen Sui-Ting, Christopher J. Creevey, Sharon A. Huws
+      <a href="https://doi.org/gsbrkp" class="citation-title">
+        Phylogenetic systematics of Butyrivibrio and Pseudobutyrivibrio genomes illustrate vast taxonomic diversity, open genomes and an abundance of carbohydrate-active enzyme family isoforms
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Sara E. Pidcock, Timofey Skvortsov, Fernanda G. Santos, Stephen J. Courtney, Karen Sui-Ting, Christopher J. Creevey, Sharon A. Huws
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Microbial Genomics</span>
+         · 
+        <span class="citation-date">04 Oct 2021</span>
+         · 
+        <span class="citation-id">doi:10.1099/mgen.0.000638</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Microbial Genomics
-        ·  
-      04 Oct 2021
-        ·  
-      doi:10.1099/mgen.0.000638
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmp" class="citation-image" aria-label="Microbiology of a
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gsbrmp" class="citation-image" aria-label="Microbiology of a
             &lt;scp&gt;NaCl&lt;/scp&gt;
             stalactite ‘salticle’ in Triassic halite">
-      <img src="" alt="Microbiology of a
+        <img src="" alt="Microbiology of a
             &lt;scp&gt;NaCl&lt;/scp&gt;
             stalactite ‘salticle’ in Triassic halite" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
+      </a>
     
 
-    <a href="https://doi.org/gsbrmp" class="citation-title">
-      Microbiology of a
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsbrmp" class="citation-title">
+        Microbiology of a
             <scp>NaCl</scp>
             stalactite ‘salticle’ in Triassic halite
-    </a>
+      </a>
 
-    <div class="citation-authors" tabindex="0">
-      Thomas P. Thompson, Stephen A. Kelly, Timofey Skvortsov, Gill Plunkett, Alastair Ruffell, John E. Hallsworth, Jason Hopps, Brendan F. Gilmore
+      <div class="citation-authors" tabindex="0">
+        Thomas P. Thompson, Stephen A. Kelly, Timofey Skvortsov, Gill Plunkett, Alastair Ruffell, John E. Hallsworth, Jason Hopps, Brendan F. Gilmore
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Environmental Microbiology</span>
+         · 
+        <span class="citation-date">19 May 2021</span>
+         · 
+        <span class="citation-id">doi:10.1111/1462-2920.15524</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Environmental Microbiology
-        ·  
-      19 May 2021
-        ·  
-      doi:10.1111/1462-2920.15524
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2020">2020</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmq" class="citation-image" aria-label="Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates: Learning From Nature">
-      <img src="" alt="Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates: Learning From Nature" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmq" class="citation-image" aria-label="Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates: Learning From Nature">
+        <img src="" alt="Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates: Learning From Nature" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmq" class="citation-title">
-      Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates: Learning From Nature
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Mohammad Reza Ghaani, Christopher C. R. Allen, Timofey Skvortsov, Niall J. English
+      <a href="https://doi.org/gsbrmq" class="citation-title">
+        Engineering Peptides to Catalyze and Control Stabilization of Gas Hydrates: Learning From Nature
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mohammad Reza Ghaani, Christopher C. R. Allen, Timofey Skvortsov, Niall J. English
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of Physical Chemistry Letters</span>
+         · 
+        <span class="citation-date">17 Jun 2020</span>
+         · 
+        <span class="citation-id">doi:10.1021/acs.jpclett.0c01224</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      The Journal of Physical Chemistry Letters
-        ·  
-      17 Jun 2020
-        ·  
-      doi:10.1021/acs.jpclett.0c01224
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkq" class="citation-image" aria-label="Rapid &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; spoligotyping from uncorrected long reads using Galru">
-      <img src="" alt="Rapid &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; spoligotyping from uncorrected long reads using Galru" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrkq" class="citation-image" aria-label="Rapid &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; spoligotyping from uncorrected long reads using Galru">
+        <img src="" alt="Rapid &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt; spoligotyping from uncorrected long reads using Galru" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrkq" class="citation-title">
-      Rapid <i>Mycobacterium tuberculosis</i> spoligotyping from uncorrected long reads using Galru
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Andrew J. Page, Nabil-Fareed Alikhan, Michael Strinden, Thanh Le Viet, Timofey Skvortsov
+      <a href="https://doi.org/gsbrkq" class="citation-title">
+        Rapid <i>Mycobacterium tuberculosis</i> spoligotyping from uncorrected long reads using Galru
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Andrew J. Page, Nabil-Fareed Alikhan, Michael Strinden, Thanh Le Viet, Timofey Skvortsov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">01 Jun 2020</span>
+         · 
+        <span class="citation-id">doi:10.1101/2020.05.31.126490</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      01 Jun 2020
-        ·  
-      doi:10.1101/2020.05.31.126490
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmr" class="citation-image" aria-label="Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates">
-      <img src="" alt="Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmr" class="citation-image" aria-label="Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates">
+        <img src="" alt="Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmr" class="citation-title">
-      Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Mohammad Reza Ghaani, Christopher C. R. Allen, Jonathan M. Young, Prithwish K. Nandi, Shamsudeen U. Dandare, Timofey Skvortsov, Niall J. English
+      <a href="https://doi.org/gsbrmr" class="citation-title">
+        Microbial Stabilization and Kinetic Enhancement of Marine Methane Hydrates
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mohammad Reza Ghaani, Christopher C. R. Allen, Jonathan M. Young, Prithwish K. Nandi, Shamsudeen U. Dandare, Timofey Skvortsov, Niall J. English
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Geomicrobiology Journal</span>
+         · 
+        <span class="citation-date">26 Nov 2019</span>
+         · 
+        <span class="citation-id">doi:10.1080/01490451.2019.1695982</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Geomicrobiology Journal
-        ·  
-      26 Nov 2019
-        ·  
-      doi:10.1080/01490451.2019.1695982
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrms" class="citation-image" aria-label="Profiling the microbial community of a Triassic halite deposit in Northern Ireland: an environment with significant potential for biodiscovery">
-      <img src="" alt="Profiling the microbial community of a Triassic halite deposit in Northern Ireland: an environment with significant potential for biodiscovery" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrms" class="citation-image" aria-label="Profiling the microbial community of a Triassic halite deposit in Northern Ireland: an environment with significant potential for biodiscovery">
+        <img src="" alt="Profiling the microbial community of a Triassic halite deposit in Northern Ireland: an environment with significant potential for biodiscovery" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrms" class="citation-title">
-      Profiling the microbial community of a Triassic halite deposit in Northern Ireland: an environment with significant potential for biodiscovery
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Julianne Megaw, Stephen A Kelly, Thomas P Thompson, Timofey Skvortsov, Brendan F Gilmore
+      <a href="https://doi.org/gsbrms" class="citation-title">
+        Profiling the microbial community of a Triassic halite deposit in Northern Ireland: an environment with significant potential for biodiscovery
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Julianne Megaw, Stephen A Kelly, Thomas P Thompson, Timofey Skvortsov, Brendan F Gilmore
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">FEMS Microbiology Letters</span>
+         · 
+        <span class="citation-date">01 Nov 2019</span>
+         · 
+        <span class="citation-id">doi:10.1093/femsle/fnz242</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      FEMS Microbiology Letters
-        ·  
-      01 Nov 2019
-        ·  
-      doi:10.1093/femsle/fnz242
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmt" class="citation-image" aria-label="Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase isolated from a Triassic period salt mine">
-      <img src="" alt="Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase isolated from a Triassic period salt mine" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmt" class="citation-image" aria-label="Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase isolated from a Triassic period salt mine">
+        <img src="" alt="Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase isolated from a Triassic period salt mine" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmt" class="citation-title">
-      Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase isolated from a Triassic period salt mine
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Stephen A. Kelly, Damian J. Magill, Julianne Megaw, Timofey Skvortsov, Thorsten Allers, John W. McGrath, Christopher C. R. Allen, Thomas S. Moody, Brendan F. Gilmore
+      <a href="https://doi.org/gsbrmt" class="citation-title">
+        Characterisation of a solvent-tolerant haloarchaeal (R)-selective transaminase isolated from a Triassic period salt mine
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Stephen A. Kelly, Damian J. Magill, Julianne Megaw, Timofey Skvortsov, Thorsten Allers, John W. McGrath, Christopher C. R. Allen, Thomas S. Moody, Brendan F. Gilmore
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Applied Microbiology and Biotechnology</span>
+         · 
+        <span class="citation-date">23 May 2019</span>
+         · 
+        <span class="citation-id">doi:10.1007/s00253-019-09806-y</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Applied Microbiology and Biotechnology
-        ·  
-      23 May 2019
-        ·  
-      doi:10.1007/s00253-019-09806-y
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gkxkns" class="citation-image" aria-label="Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses">
-      <img src="" alt="Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gkxkns" class="citation-image" aria-label="Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses">
+        <img src="" alt="Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gkxkns" class="citation-title">
-      Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Damian J. Magill, Leonid A. Kulakov, Timofey A. Skvortsov
+      <a href="https://doi.org/gkxkns" class="citation-title">
+        Genomic hypervariability of phage Andromeda is unique among known dsDNA viruses
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Damian J. Magill, Leonid A. Kulakov, Timofey A. Skvortsov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">25 Apr 2019</span>
+         · 
+        <span class="citation-id">doi:10.1101/619015</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      25 Apr 2019
-        ·  
-      doi:10.1101/619015
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkr" class="citation-image" aria-label="Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols">
-      <img src="" alt="Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrkr" class="citation-image" aria-label="Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols">
+        <img src="" alt="Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrkr" class="citation-title">
-      Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Jonathan M. Young, Timofey Skvortsov, Brian P. Kelleher, William C. Mahaney, Peeter Somelar, Christopher C.R. Allen
+      <a href="https://doi.org/gsbrkr" class="citation-title">
+        Effect of soil horizon stratigraphy on the microbial ecology of alpine paleosols
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jonathan M. Young, Timofey Skvortsov, Brian P. Kelleher, William C. Mahaney, Peeter Somelar, Christopher C.R. Allen
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Science of The Total Environment</span>
+         · 
+        <span class="citation-date">01 Mar 2019</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.scitotenv.2018.11.442</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Science of The Total Environment
-        ·  
-      01 Mar 2019
-        ·  
-      doi:10.1016/j.scitotenv.2018.11.442
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2018">2018</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gfbbp2" class="citation-image" aria-label="Characterization of a novel ω-transaminase from a Triassic salt mine metagenome">
-      <img src="" alt="Characterization of a novel ω-transaminase from a Triassic salt mine metagenome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gfbbp2" class="citation-image" aria-label="Characterization of a novel ω-transaminase from a Triassic salt mine metagenome">
+        <img src="" alt="Characterization of a novel ω-transaminase from a Triassic salt mine metagenome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gfbbp2" class="citation-title">
-      Characterization of a novel ω-transaminase from a Triassic salt mine metagenome
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Stephen A. Kelly, Timofey Skvortsov, Damian Magill, Derek J. Quinn, John W. McGrath, Christopher C.R. Allen, Thomas S. Moody, Brendan F. Gilmore
+      <a href="https://doi.org/gfbbp2" class="citation-title">
+        Characterization of a novel ω-transaminase from a Triassic salt mine metagenome
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Stephen A. Kelly, Timofey Skvortsov, Damian Magill, Derek J. Quinn, John W. McGrath, Christopher C.R. Allen, Thomas S. Moody, Brendan F. Gilmore
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biochemical and Biophysical Research Communications</span>
+         · 
+        <span class="citation-date">01 Sep 2018</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.bbrc.2018.08.073</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Biochemical and Biophysical Research Communications
-        ·  
-      01 Sep 2018
-        ·  
-      doi:10.1016/j.bbrc.2018.08.073
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkv" class="citation-image" aria-label="Draft Genome Sequences of
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gsbrkv" class="citation-image" aria-label="Draft Genome Sequences of
             &lt;i&gt;Pseudomonas putida&lt;/i&gt;
             UV4 and UV4/95, Toluene Dioxygenase-Expressing Producers of
             &lt;i&gt;cis&lt;/i&gt;
             -1,2-Dihydrodiols">
-      <img src="" alt="Draft Genome Sequences of
+        <img src="" alt="Draft Genome Sequences of
             &lt;i&gt;Pseudomonas putida&lt;/i&gt;
             UV4 and UV4/95, Toluene Dioxygenase-Expressing Producers of
             &lt;i&gt;cis&lt;/i&gt;
             -1,2-Dihydrodiols" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
+      </a>
     
 
-    <a href="https://doi.org/gsbrkv" class="citation-title">
-      Draft Genome Sequences of
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsbrkv" class="citation-title">
+        Draft Genome Sequences of
             <i>Pseudomonas putida</i>
             UV4 and UV4/95, Toluene Dioxygenase-Expressing Producers of
             <i>cis</i>
             -1,2-Dihydrodiols
-    </a>
+      </a>
 
-    <div class="citation-authors" tabindex="0">
-      Timofey Skvortsov, Patrick Hoering, Ksenia Arkhipova, Roger C. Whitehead, Derek R. Boyd, Christopher C. R. Allen
+      <div class="citation-authors" tabindex="0">
+        Timofey Skvortsov, Patrick Hoering, Ksenia Arkhipova, Roger C. Whitehead, Derek R. Boyd, Christopher C. R. Allen
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Genome Announcements</span>
+         · 
+        <span class="citation-date">04 Jan 2018</span>
+         · 
+        <span class="citation-id">doi:10.1128/genomeA.01419-17</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Genome Announcements
-        ·  
-      04 Jan 2018
-        ·  
-      doi:10.1128/genomeA.01419-17
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkt" class="citation-image" aria-label="Draft Genome Sequence of the Predatory Marine Bacterium
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gsbrkt" class="citation-image" aria-label="Draft Genome Sequence of the Predatory Marine Bacterium
             &lt;i&gt;Halobacteriovorax&lt;/i&gt;
             sp. Strain JY17">
-      <img src="" alt="Draft Genome Sequence of the Predatory Marine Bacterium
+        <img src="" alt="Draft Genome Sequence of the Predatory Marine Bacterium
             &lt;i&gt;Halobacteriovorax&lt;/i&gt;
             sp. Strain JY17" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
+      </a>
     
 
-    <a href="https://doi.org/gsbrkt" class="citation-title">
-      Draft Genome Sequence of the Predatory Marine Bacterium
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsbrkt" class="citation-title">
+        Draft Genome Sequence of the Predatory Marine Bacterium
             <i>Halobacteriovorax</i>
             sp. Strain JY17
-    </a>
+      </a>
 
-    <div class="citation-authors" tabindex="0">
-      Jonathan M. Young, Timofey Skvortsov, Ksenia Arkhipova, Christopher C. R. Allen
+      <div class="citation-authors" tabindex="0">
+        Jonathan M. Young, Timofey Skvortsov, Ksenia Arkhipova, Christopher C. R. Allen
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Genome Announcements</span>
+         · 
+        <span class="citation-date">04 Jan 2018</span>
+         · 
+        <span class="citation-id">doi:10.1128/genomeA.01416-17</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Genome Announcements
-        ·  
-      04 Jan 2018
-        ·  
-      doi:10.1128/genomeA.01416-17
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrks" class="citation-image" aria-label="Draft Genome Sequence of
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gsbrks" class="citation-image" aria-label="Draft Genome Sequence of
             &lt;i&gt;Rhodococcus&lt;/i&gt;
             sp. Strain NCIMB 12038, a Naphthalene-Degrading Bacterium">
-      <img src="" alt="Draft Genome Sequence of
+        <img src="" alt="Draft Genome Sequence of
             &lt;i&gt;Rhodococcus&lt;/i&gt;
             sp. Strain NCIMB 12038, a Naphthalene-Degrading Bacterium" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
+      </a>
     
 
-    <a href="https://doi.org/gsbrks" class="citation-title">
-      Draft Genome Sequence of
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsbrks" class="citation-title">
+        Draft Genome Sequence of
             <i>Rhodococcus</i>
             sp. Strain NCIMB 12038, a Naphthalene-Degrading Bacterium
-    </a>
+      </a>
 
-    <div class="citation-authors" tabindex="0">
-      Shamsudeen U. Dandare, Timofey Skvortsov, Ksenia Arkhipova, Christopher C. R. Allen
+      <div class="citation-authors" tabindex="0">
+        Shamsudeen U. Dandare, Timofey Skvortsov, Ksenia Arkhipova, Christopher C. R. Allen
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Genome Announcements</span>
+         · 
+        <span class="citation-date">04 Jan 2018</span>
+         · 
+        <span class="citation-id">doi:10.1128/genomeA.01420-17</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Genome Announcements
-        ·  
-      04 Jan 2018
-        ·  
-      doi:10.1128/genomeA.01420-17
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrkw" class="citation-image" aria-label="Spatial requirement for PAMO for transformation of non-native linear substrates">
-      <img src="" alt="Spatial requirement for PAMO for transformation of non-native linear substrates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrkw" class="citation-image" aria-label="Spatial requirement for PAMO for transformation of non-native linear substrates">
+        <img src="" alt="Spatial requirement for PAMO for transformation of non-native linear substrates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrkw" class="citation-title">
-      Spatial requirement for PAMO for transformation of non-native linear substrates
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Alexandra T. P. Carvalho, Daniel F. A. R. Dourado, Timofey Skvortsov, Miguel de Abreu, Lyndsey J. Ferguson, Derek J. Quinn, Thomas S. Moody, Meilan Huang
+      <a href="https://doi.org/gsbrkw" class="citation-title">
+        Spatial requirement for PAMO for transformation of non-native linear substrates
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Alexandra T. P. Carvalho, Daniel F. A. R. Dourado, Timofey Skvortsov, Miguel de Abreu, Lyndsey J. Ferguson, Derek J. Quinn, Thomas S. Moody, Meilan Huang
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Physical Chemistry Chemical Physics</span>
+         · 
+        <span class="citation-date">01 Jan 2018</span>
+         · 
+        <span class="citation-id">doi:10.1039/C7CP07172H</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Physical Chemistry Chemical Physics
-        ·  
-      01 Jan 2018
-        ·  
-      doi:10.1039/C7CP07172H
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2017">2017</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gb4c2q" class="citation-image" aria-label="Temporal dynamics of uncultured viruses: a new dimension in viral diversity">
-      <img src="" alt="Temporal dynamics of uncultured viruses: a new dimension in viral diversity" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gb4c2q" class="citation-image" aria-label="Temporal dynamics of uncultured viruses: a new dimension in viral diversity">
+        <img src="" alt="Temporal dynamics of uncultured viruses: a new dimension in viral diversity" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gb4c2q" class="citation-title">
-      Temporal dynamics of uncultured viruses: a new dimension in viral diversity
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Ksenia Arkhipova, Timofey Skvortsov, John P Quinn, John W McGrath, Christopher CR Allen, Bas E Dutilh, Yvonne McElarney, Leonid A Kulakov
+      <a href="https://doi.org/gb4c2q" class="citation-title">
+        Temporal dynamics of uncultured viruses: a new dimension in viral diversity
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ksenia Arkhipova, Timofey Skvortsov, John P Quinn, John W McGrath, Christopher CR Allen, Bas E Dutilh, Yvonne McElarney, Leonid A Kulakov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The ISME Journal</span>
+         · 
+        <span class="citation-date">13 Oct 2017</span>
+         · 
+        <span class="citation-id">doi:10.1038/ismej.2017.157</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      The ISME Journal
-        ·  
-      13 Oct 2017
-        ·  
-      doi:10.1038/ismej.2017.157
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrmv" class="citation-image" aria-label="Catalytic mechanism of phenylacetone monooxygenases for non-native linear substrates">
-      <img src="" alt="Catalytic mechanism of phenylacetone monooxygenases for non-native linear substrates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrmv" class="citation-image" aria-label="Catalytic mechanism of phenylacetone monooxygenases for non-native linear substrates">
+        <img src="" alt="Catalytic mechanism of phenylacetone monooxygenases for non-native linear substrates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrmv" class="citation-title">
-      Catalytic mechanism of phenylacetone monooxygenases for non-native linear substrates
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Alexandra T. P. Carvalho, Daniel F. A. R. Dourado, Timofey Skvortsov, Miguel de Abreu, Lyndsey J. Ferguson, Derek J. Quinn, Thomas S. Moody, Meilan Huang
+      <a href="https://doi.org/gsbrmv" class="citation-title">
+        Catalytic mechanism of phenylacetone monooxygenases for non-native linear substrates
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Alexandra T. P. Carvalho, Daniel F. A. R. Dourado, Timofey Skvortsov, Miguel de Abreu, Lyndsey J. Ferguson, Derek J. Quinn, Thomas S. Moody, Meilan Huang
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Phys. Chem. Chem. Phys.</span>
+         · 
+        <span class="citation-date">01 Jan 2017</span>
+         · 
+        <span class="citation-id">doi:10.1039/C7CP03640J</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Phys. Chem. Chem. Phys.
-        ·  
-      01 Jan 2017
-        ·  
-      doi:10.1039/C7CP03640J
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2016">2016</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f9bw8c" class="citation-image" aria-label="Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis of (1S)-1-(1,1′-biphenyl-2-yl)ethanamine">
-      <img src="" alt="Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis of (1S)-1-(1,1′-biphenyl-2-yl)ethanamine" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f9bw8c" class="citation-image" aria-label="Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis of (1S)-1-(1,1′-biphenyl-2-yl)ethanamine">
+        <img src="" alt="Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis of (1S)-1-(1,1′-biphenyl-2-yl)ethanamine" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f9bw8c" class="citation-title">
-      Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis of (1S)-1-(1,1′-biphenyl-2-yl)ethanamine
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Daniel F. A. R. Dourado, Stefan Pohle, Alexandra T. P. Carvalho, Dharmendra S. Dheeman, Jill M. Caswell, Timofey Skvortsov, Iain Miskelly, Rodney T. Brown, Derek J. Quinn, Christopher C. R. Allen, Leonid Kulakov, Meilan Huang, Thomas S. Moody " tabindex="0">
-      Daniel F. A. R. Dourado, Stefan Pohle, Alexandra T. P. Carvalho, Dharmendra S. Dheeman, Jill M. Caswell, ..., Derek J. Quinn, Christopher C. R. Allen, Leonid Kulakov, Meilan Huang, Thomas S. Moody
+      <a href="https://doi.org/f9bw8c" class="citation-title">
+        Rational Design of a (S)-Selective-Transaminase for Asymmetric Synthesis of (1S)-1-(1,1′-biphenyl-2-yl)ethanamine
+      </a>
+
+      <div class="citation-authors" data-tooltip="Daniel F. A. R. Dourado, Stefan Pohle, Alexandra T. P. Carvalho, Dharmendra S. Dheeman, Jill M. Caswell, Timofey Skvortsov, Iain Miskelly, Rodney T. Brown, Derek J. Quinn, Christopher C. R. Allen, Leonid Kulakov, Meilan Huang, Thomas S. Moody " tabindex="0">
+        Daniel F. A. R. Dourado, Stefan Pohle, Alexandra T. P. Carvalho, Dharmendra S. Dheeman, Jill M. Caswell, …, Derek J. Quinn, Christopher C. R. Allen, Leonid Kulakov, Meilan Huang, Thomas S. Moody
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACS Catalysis</span>
+         · 
+        <span class="citation-date">17 Oct 2016</span>
+         · 
+        <span class="citation-id">doi:10.1021/acscatal.6b02380</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      ACS Catalysis
-        ·  
-      17 Oct 2016
-        ·  
-      doi:10.1021/acscatal.6b02380
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gmsbpd" class="citation-image" aria-label="Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest Freshwater Lake in Ireland">
-      <img src="" alt="Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest Freshwater Lake in Ireland" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gmsbpd" class="citation-image" aria-label="Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest Freshwater Lake in Ireland">
+        <img src="" alt="Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest Freshwater Lake in Ireland" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gmsbpd" class="citation-title">
-      Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest Freshwater Lake in Ireland
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Timofey Skvortsov, Colin de Leeuwe, John P. Quinn, John W. McGrath, Christopher C. R. Allen, Yvonne McElarney, Catherine Watson, Ksenia Arkhipova, Rob Lavigne, Leonid A. Kulakov
+      <a href="https://doi.org/gmsbpd" class="citation-title">
+        Metagenomic Characterisation of the Viral Community of Lough Neagh, the Largest Freshwater Lake in Ireland
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Timofey Skvortsov, Colin de Leeuwe, John P. Quinn, John W. McGrath, Christopher C. R. Allen, Yvonne McElarney, Catherine Watson, Ksenia Arkhipova, Rob Lavigne, Leonid A. Kulakov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS ONE</span>
+         · 
+        <span class="citation-date">29 Feb 2016</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pone.0150361</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      PLOS ONE
-        ·  
-      29 Feb 2016
-        ·  
-      doi:10.1371/journal.pone.0150361
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2015">2015</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f8cgv8" class="citation-image" aria-label="Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant mRNA">
-      <img src="" alt="Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant mRNA" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f8cgv8" class="citation-image" aria-label="Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant mRNA">
+        <img src="" alt="Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant mRNA" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f8cgv8" class="citation-title">
-      Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant mRNA
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Dmitriy V. Ignatov, Elena G. Salina, Mikhail V. Fursov, Timofey A. Skvortsov, Tatyana L. Azhikina, Arseny S. Kaprelyants
+      <a href="https://doi.org/f8cgv8" class="citation-title">
+        Dormant non-culturable Mycobacterium tuberculosis retains stable low-abundant mRNA
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Dmitriy V. Ignatov, Elena G. Salina, Mikhail V. Fursov, Timofey A. Skvortsov, Tatyana L. Azhikina, Arseny S. Kaprelyants
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">BMC Genomics</span>
+         · 
+        <span class="citation-date">16 Nov 2015</span>
+         · 
+        <span class="citation-id">doi:10.1186/s12864-015-2197-6</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      BMC Genomics
-        ·  
-      16 Nov 2015
-        ·  
-      doi:10.1186/s12864-015-2197-6
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2014">2014</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrk2" class="citation-image" aria-label="Expression of small RNAs of Mycobacterium tuberculosis in murine models of tuberculosis infection">
-      <img src="" alt="Expression of small RNAs of Mycobacterium tuberculosis in murine models of tuberculosis infection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrk2" class="citation-image" aria-label="Expression of small RNAs of Mycobacterium tuberculosis in murine models of tuberculosis infection">
+        <img src="" alt="Expression of small RNAs of Mycobacterium tuberculosis in murine models of tuberculosis infection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrk2" class="citation-title">
-      Expression of small RNAs of Mycobacterium tuberculosis in murine models of tuberculosis infection
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      D. V. Ignatov, O. Yu. Timoshina, N. N. Logunova, T. A. Skvortsov, T. L. Azhikina
+      <a href="https://doi.org/gsbrk2" class="citation-title">
+        Expression of small RNAs of Mycobacterium tuberculosis in murine models of tuberculosis infection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        D. V. Ignatov, O. Yu. Timoshina, N. N. Logunova, T. A. Skvortsov, T. L. Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Russian Journal of Bioorganic Chemistry</span>
+         · 
+        <span class="citation-date">01 Mar 2014</span>
+         · 
+        <span class="citation-id">doi:10.1134/s1068162014020058</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Russian Journal of Bioorganic Chemistry
-        ·  
-      01 Mar 2014
-        ·  
-      doi:10.1134/s1068162014020058
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gb83vk" class="citation-image" aria-label="Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species">
-      <img src="" alt="Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gb83vk" class="citation-image" aria-label="Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species">
+        <img src="" alt="Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gb83vk" class="citation-title">
-      Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Oksana S. Bychenko, Lyubov V. Sukhanova, Tatyana L. Azhikina, Timofey A. Skvortsov, Tuyana V. Belomestnykh, Eugene D. Sverdlov
+      <a href="https://doi.org/gb83vk" class="citation-title">
+        Differences in Brain Transcriptomes of Closely Related Baikal Coregonid Species
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Oksana S. Bychenko, Lyubov V. Sukhanova, Tatyana L. Azhikina, Timofey A. Skvortsov, Tuyana V. Belomestnykh, Eugene D. Sverdlov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">BioMed Research International</span>
+         · 
+        <span class="citation-date">01 Jan 2014</span>
+         · 
+        <span class="citation-id">doi:10.1155/2014/857329</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      BioMed Research International
-        ·  
-      01 Jan 2014
-        ·  
-      doi:10.1155/2014/857329
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2013">2013</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrk3" class="citation-image" aria-label="RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome">
-      <img src="" alt="RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrk3" class="citation-image" aria-label="RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome">
+        <img src="" alt="RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrk3" class="citation-title">
-      RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Dmitriy Ignatov, Sofia Malakho, Konstantin Majorov, Timofey Skvortsov, Alexander Apt, Tatyana Azhikina
+      <a href="https://doi.org/gsbrk3" class="citation-title">
+        RNA-Seq Analysis of Mycobacterium avium Non-Coding Transcriptome
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Dmitriy Ignatov, Sofia Malakho, Konstantin Majorov, Timofey Skvortsov, Alexander Apt, Tatyana Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLoS ONE</span>
+         · 
+        <span class="citation-date">16 Sep 2013</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pone.0074209</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      PLoS ONE
-        ·  
-      16 Sep 2013
-        ·  
-      doi:10.1371/journal.pone.0074209
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-84887388464&partnerID=MN8TOARS" class="citation-image" aria-label="Mycobacterium tuberculosis transcriptome profiling in mice with genetically different susceptibility to tuberculosis">
-      <img src="" alt="Mycobacterium tuberculosis transcriptome profiling in mice with genetically different susceptibility to tuberculosis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-84887388464&partnerID=MN8TOARS" class="citation-image" aria-label="Mycobacterium tuberculosis transcriptome profiling in mice with genetically different susceptibility to tuberculosis">
+        <img src="" alt="Mycobacterium tuberculosis transcriptome profiling in mice with genetically different susceptibility to tuberculosis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-84887388464&partnerID=MN8TOARS" class="citation-title">
-      Mycobacterium tuberculosis transcriptome profiling in mice with genetically different susceptibility to tuberculosis
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      T A Skvortsov, D V Ignatov, K B Majorov, A S Apt, T L Azhikina
+      <a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-84887388464&partnerID=MN8TOARS" class="citation-title">
+        Mycobacterium tuberculosis transcriptome profiling in mice with genetically different susceptibility to tuberculosis
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        T A Skvortsov, D V Ignatov, K B Majorov, A S Apt, T L Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Acta Naturae</span>
+         · 
+        <span class="citation-date">01 Jan 2013</span>
+         · 
+        <span class="citation-id">pmc:PMC3695354</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Acta Naturae
-        ·  
-      01 Jan 2013
-        ·  
-      pmc:PMC3695354
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2012">2012</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrk5" class="citation-image" aria-label="Novel small RNAs from Mycobacterium avium">
-      <img src="" alt="Novel small RNAs from Mycobacterium avium" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrk5" class="citation-image" aria-label="Novel small RNAs from Mycobacterium avium">
+        <img src="" alt="Novel small RNAs from Mycobacterium avium" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrk5" class="citation-title">
-      Novel small RNAs from Mycobacterium avium
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      D. V. Ignatov, L. G. Mefodieva, K. B. Majorov, T. A. Skvortsov, T. L. Azhikina
+      <a href="https://doi.org/gsbrk5" class="citation-title">
+        Novel small RNAs from Mycobacterium avium
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        D. V. Ignatov, L. G. Mefodieva, K. B. Majorov, T. A. Skvortsov, T. L. Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Russian Journal of Bioorganic Chemistry</span>
+         · 
+        <span class="citation-date">01 Jul 2012</span>
+         · 
+        <span class="citation-id">doi:10.1134/s1068162012040085</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Russian Journal of Bioorganic Chemistry
-        ·  
-      01 Jul 2012
-        ·  
-      doi:10.1134/s1068162012040085
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsbrk4" class="citation-image" aria-label="Adaptive changes in gene expression of Mycobacterium tuberculosis during the development of the infection">
-      <img src="" alt="Adaptive changes in gene expression of Mycobacterium tuberculosis during the development of the infection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsbrk4" class="citation-image" aria-label="Adaptive changes in gene expression of Mycobacterium tuberculosis during the development of the infection">
+        <img src="" alt="Adaptive changes in gene expression of Mycobacterium tuberculosis during the development of the infection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsbrk4" class="citation-title">
-      Adaptive changes in gene expression of Mycobacterium tuberculosis during the development of the infection
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      T. A. Skvortsov, T. L. Azhikina
+      <a href="https://doi.org/gsbrk4" class="citation-title">
+        Adaptive changes in gene expression of Mycobacterium tuberculosis during the development of the infection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        T. A. Skvortsov, T. L. Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Russian Journal of Bioorganic Chemistry</span>
+         · 
+        <span class="citation-date">01 Jul 2012</span>
+         · 
+        <span class="citation-id">doi:10.1134/s1068162012040139</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Russian Journal of Bioorganic Chemistry
-        ·  
-      01 Jul 2012
-        ·  
-      doi:10.1134/s1068162012040139
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2011">2011</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/d2mhr2" class="citation-image" aria-label="Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter methylation in non–small cell lung cancer and surrounding tissues">
-      <img src="" alt="Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter methylation in non–small cell lung cancer and surrounding tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/d2mhr2" class="citation-image" aria-label="Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter methylation in non–small cell lung cancer and surrounding tissues">
+        <img src="" alt="Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter methylation in non–small cell lung cancer and surrounding tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/d2mhr2" class="citation-title">
-      Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter methylation in non–small cell lung cancer and surrounding tissues
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Tatyana Azhikina, Alena Kozlova, Timofey Skvortsov, Eugene Sverdlov
+      <a href="https://doi.org/d2mhr2" class="citation-title">
+        Heterogeneity and degree of TIMP4, GATA4, SOX18, and EGFL7 gene promoter methylation in non–small cell lung cancer and surrounding tissues
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Tatyana Azhikina, Alena Kozlova, Timofey Skvortsov, Eugene Sverdlov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cancer Genetics</span>
+         · 
+        <span class="citation-date">01 Sep 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.cancergen.2011.07.010</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cancer Genetics
-        ·  
-      01 Sep 2011
-        ·  
-      doi:10.1016/j.cancergen.2011.07.010
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2010">2010</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/d7jx85" class="citation-image" aria-label="A review of the transcriptome analysis of bacterial pathogens in vivo: Problems and solutions">
-      <img src="" alt="A review of the transcriptome analysis of bacterial pathogens in vivo: Problems and solutions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/d7jx85" class="citation-image" aria-label="A review of the transcriptome analysis of bacterial pathogens in vivo: Problems and solutions">
+        <img src="" alt="A review of the transcriptome analysis of bacterial pathogens in vivo: Problems and solutions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/d7jx85" class="citation-title">
-      A review of the transcriptome analysis of bacterial pathogens in vivo: Problems and solutions
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      T. A. Skvortsov, T. L. Azhikina
+      <a href="https://doi.org/d7jx85" class="citation-title">
+        A review of the transcriptome analysis of bacterial pathogens in vivo: Problems and solutions
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        T. A. Skvortsov, T. L. Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Russian Journal of Bioorganic Chemistry</span>
+         · 
+        <span class="citation-date">01 Sep 2010</span>
+         · 
+        <span class="citation-id">doi:10.1134/s106816201005002x</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Russian Journal of Bioorganic Chemistry
-        ·  
-      01 Sep 2010
-        ·  
-      doi:10.1134/s106816201005002x
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/cbsnbz" class="citation-image" aria-label="A new technique for obtaining whole pathogen transcriptomes from infected host tissues">
-      <img src="" alt="A new technique for obtaining whole pathogen transcriptomes from infected host tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/cbsnbz" class="citation-image" aria-label="A new technique for obtaining whole pathogen transcriptomes from infected host tissues">
+        <img src="" alt="A new technique for obtaining whole pathogen transcriptomes from infected host tissues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/cbsnbz" class="citation-title">
-      A new technique for obtaining whole pathogen transcriptomes from infected host tissues
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Tatyana L. Azhikina, Timofey A. Skvortsov, Tatyana V. Radaeva, Andrey V. Mardanov, Nikolay V. Ravin, Alexander S. Apt, Eugene D. Sverdlov
+      <a href="https://doi.org/cbsnbz" class="citation-title">
+        A new technique for obtaining whole pathogen transcriptomes from infected host tissues
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Tatyana L. Azhikina, Timofey A. Skvortsov, Tatyana V. Radaeva, Andrey V. Mardanov, Nikolay V. Ravin, Alexander S. Apt, Eugene D. Sverdlov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">BioTechniques</span>
+         · 
+        <span class="citation-date">01 Feb 2010</span>
+         · 
+        <span class="citation-id">doi:10.2144/000113350</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      BioTechniques
-        ·  
-      01 Feb 2010
-        ·  
-      doi:10.2144/000113350
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://www.ncbi.nlm.nih.gov/pubmed/22649654" class="citation-image" aria-label="Adaptive changes in Mycobacterium avium gene expression profile following infection of genetically susceptible and resistant mice">
-      <img src="" alt="Adaptive changes in Mycobacterium avium gene expression profile following infection of genetically susceptible and resistant mice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://www.ncbi.nlm.nih.gov/pubmed/22649654" class="citation-image" aria-label="Adaptive changes in Mycobacterium avium gene expression profile following infection of genetically susceptible and resistant mice">
+        <img src="" alt="Adaptive changes in Mycobacterium avium gene expression profile following infection of genetically susceptible and resistant mice" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://www.ncbi.nlm.nih.gov/pubmed/22649654" class="citation-title">
-      Adaptive changes in Mycobacterium avium gene expression profile following infection of genetically susceptible and resistant mice
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      D V Ignatov, T A Skvortsov, K B Majorov, A S Apt, T L Azhikina
+      <a href="https://www.ncbi.nlm.nih.gov/pubmed/22649654" class="citation-title">
+        Adaptive changes in Mycobacterium avium gene expression profile following infection of genetically susceptible and resistant mice
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        D V Ignatov, T A Skvortsov, K B Majorov, A S Apt, T L Azhikina
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Acta Naturae</span>
+         · 
+        <span class="citation-date">01 Jan 2010</span>
+         · 
+        <span class="citation-id">pmid:22649654</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Acta Naturae
-        ·  
-      01 Jan 2010
-        ·  
-      pmid:22649654
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2009">2009</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/d9zwvq" class="citation-image" aria-label="Genome similarity of Baikal omul and sig">
-      <img src="" alt="Genome similarity of Baikal omul and sig" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/d9zwvq" class="citation-image" aria-label="Genome similarity of Baikal omul and sig">
+        <img src="" alt="Genome similarity of Baikal omul and sig" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/d9zwvq" class="citation-title">
-      Genome similarity of Baikal omul and sig
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      O. S. Bychenko, L. V. Sukhanova, S. S. Ukolova, T. A. Skvortsov, V. K. Potapov, T. L. Azhikina, E. D. Sverdlov
+      <a href="https://doi.org/d9zwvq" class="citation-title">
+        Genome similarity of Baikal omul and sig
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        O. S. Bychenko, L. V. Sukhanova, S. S. Ukolova, T. A. Skvortsov, V. K. Potapov, T. L. Azhikina, E. D. Sverdlov
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Russian Journal of Bioorganic Chemistry</span>
+         · 
+        <span class="citation-date">01 Jan 2009</span>
+         · 
+        <span class="citation-id">doi:10.1134/s1068162009010117</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Russian Journal of Bioorganic Chemistry
-        ·  
-      01 Jan 2009
-        ·  
-      doi:10.1134/s1068162009010117
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>
@@ -1993,7 +2115,7 @@
   -->
 
   <div>
-      © 2023
+      © 2024
       Skvortsov Lab
         |
     
@@ -2091,7 +2213,7 @@
   </div>
 
   <!-- <div>
-    &copy; 2023
+    &copy; 2024
     Skvortsov Lab
     &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
