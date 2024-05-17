@@ -10,6 +10,7 @@ nav:
 
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait-nonpi" filters="role: postdoc " %}
 {% include list.html data="members" component="portrait-nonpi" filters="role: phd " %}
 
 

@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Our research
 
-Our group combines wet lab and bioinfomatics approaches to explore novel ways to use bacteriophages and their enzymes in clinical settings and for biotechnological applications. In addition, we develop novel computational tools and methods to characterise bacteriophages and other viruses. 
+Our group combines wet lab and bioinformatics approaches to explore novel ways to use bacteriophages and their enzymes in clinical settings and for biotechnological applications. In addition, we develop novel computational tools and methods to characterise bacteriophages and other viruses. 
 
 ## Bacteriophage Formulations
 {% capture content %}
