@@ -1,6 +1,6 @@
 ---
 name: Laura McClenaghan
-image: images/team_photos/Portrait_Placeholder.png
+image: images/team_photos/laura-mcclenaghan.png
 role: postdoc
 ---
 
