@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2024.09.21.614246
+  title: 'Decoding Protein Dynamics: ProFlex as a Linguistic Bridge in Normal Mode
+    Analysis'
+  authors:
+  - Damian J. Magill
+  - Timofey A. Skvortsov
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-09-24'
+  link: https://doi.org/g5893f
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/jambio/lxae045
   title: A novel bioinformatic method for the identification of antimicrobial peptides
     in metagenomes
@@ -196,7 +208,7 @@
   - Matthew McAteer
   - Timofey Skvortsov
   - Stephen Kelly
-  publisher: Research Square Platform LLC
+  publisher: Springer Science and Business Media LLC
   date: '2023-11-20'
   link: https://doi.org/gtngf2
   orcid: 0000-0002-4048-6725
@@ -5984,7 +5996,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2020.05.31.126490
-  title: Rapid <i>Mycobacterium tuberculosis</i> spoligotyping from uncorrected long
+  title: Rapid<i>Mycobacterium tuberculosis</i>spoligotyping from uncorrected long
     reads using Galru
   authors:
   - Andrew J. Page
@@ -6353,8 +6365,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.2144/000113350
-  title: A new technique for obtaining whole pathogen transcriptomes from infected
-    host tissues
+  title: A new Technique for Obtaining Whole Pathogen Transcriptomes from Infected
+    Host Tissues
   authors:
   - Tatyana L. Azhikina
   - Timofey A. Skvortsov
