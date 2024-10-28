@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.bioflm.2024.100230
+  title: Plasma activated water pre-treatment substantially enhances phage activity
+    against Proteus mirabilis biofilms
+  authors:
+  - Akash Shambharkar
+  - Thomas P. Thompson
+  - Laura A. McClenaghan
+  - Paula Bourke
+  - Brendan F. Gilmore
+  - Timofey Skvortsov
+  publisher: Biofilm
+  date: '2024-12-01'
+  link: https://doi.org/g8nmv8
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2024.09.21.614246
   title: 'Decoding Protein Dynamics: ProFlex as a Linguistic Bridge in Normal Mode
     Analysis'
