@@ -1,5 +1,25 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1186/s13073-024-01409-1
+  title: 'SARS-CoV-2 introductions to the island of Ireland: a phylogenetic and geospatiotemporal
+    study of infection dynamics'
+  authors:
+  - Alan M. Rice
+  - Evan P. Troendle
+  - Stephen J. Bridgett
+  - Behnam Firoozi Nejad
+  - Jennifer M. McKinley
+  - Declan T. Bradley
+  - Derek J. Fairley
+  - "Connor\_G.\_G. Bamford"
+  - Timofey Skvortsov
+  - David A. Simpson
+  publisher: Genome Medicine
+  date: '2024-12-19'
+  link: https://doi.org/g84qpg
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.bioflm.2024.100230
   title: Plasma activated water pre-treatment substantially enhances phage activity
     against Proteus mirabilis biofilms
@@ -25,6 +45,24 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2024-09-24'
   link: https://doi.org/g5893f
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s44259-024-00036-5
+  title: Identification and characterisation of two functional antibiotic MATE efflux
+    pumps in the archaeon Halorubrum amylolyticum
+  authors:
+  - Asma A. Fakhoury
+  - Thomas P. Thompson
+  - Khondaker Miraz Rahman
+  - Julianne Megaw
+  - Matthew I. McAteer
+  - Timofey Skvortsov
+  - Stephen A. Kelly
+  - Brendan F. Gilmore
+  publisher: npj Antimicrobials and Resistance
+  date: '2024-08-02'
+  link: https://doi.org/g84qp2
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
@@ -104,26 +142,6 @@
   publisher: Organic Process Research &amp; Development
   date: '2024-02-16'
   link: https://doi.org/gtngfw
-  orcid: 0000-0002-4048-6725
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13073-024-01409-1
-  title: 'SARS-CoV-2 introductions to the island of Ireland: a phylogenetic and geospatiotemporal
-    study of infection dynamics'
-  authors:
-  - Alan M. Rice
-  - Evan P. Troendle
-  - Stephen J. Bridgett
-  - Behnam Firoozi Nejad
-  - Jennifer M. McKinley
-  - Declan T. Bradley
-  - Derek J. Fairley
-  - "Connor\_G.\_G. Bamford"
-  - Timofey Skvortsov
-  - David A. Simpson
-  publisher: Genome Medicine
-  date: '2024-12-19'
-  link: https://doi.org/g84qpg
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
@@ -259,24 +277,6 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2023-01-30'
   link: https://doi.org/gtngfz
-  orcid: 0000-0002-4048-6725
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.21203/rs.3.rs-3584324/v1
-  title: Identification and Characterisation of Two Functional Antibiotic MATE Efflux
-    pumps in the Halophilic Archaeon Halorubrum saccharovorum CSM52
-  authors:
-  - Brendan Gilmore
-  - Asma Fakhoury
-  - Thomas Thompson
-  - Khondaker Rahman
-  - Julianne Megaw
-  - Matthew McAteer
-  - Timofey Skvortsov
-  - Stephen Kelly
-  publisher: Springer Science and Business Media LLC
-  date: '2023-11-20'
-  link: https://doi.org/gtngf2
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
@@ -925,25 +925,6 @@
   publisher: Journal of Hospital Infection
   date: '2023-05-01'
   link: https://doi.org/gsbrmd
-  orcid: 0000-0002-4048-6725
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.05.11.23289783
-  title: SARS-CoV-2 introductions to the island of Ireland
-  authors:
-  - Alan M. Rice
-  - Evan P. Troendle
-  - Stephen Bridgett
-  - Behnam Firoozi Nejad
-  - Jennifer M. McKinley
-  - Declan T. Bradley
-  - Derek Fairley
-  - Connor G. G. Bamford
-  - Timofey Skvortsov
-  - David A. Simpson
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-05-11'
-  link: https://doi.org/gsbrkk
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
