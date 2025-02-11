@@ -59,6 +59,74 @@
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2024.07.22.24310067
+  title: Combining individual and wastewater whole genome sequencing improves SARS-CoV-2
+    surveillance
+  authors:
+  - Evan P. Troendle
+  - Andrew J. Lee
+  - Marina I. Reyne
+  - Danielle M. Allen
+  - Stephen J. Bridgett
+  - Clara H. Radulescu
+  - Michael Glenn
+  - John-Paul Wilkins
+  - Francesco Rubino
+  - Behnam Firoozi Nejad
+  - Cormac McSparron
+  - Marc Niebel
+  - Derek J. Fairley
+  - Christopher J. Creevey
+  - Jennifer M. McKinley
+  - Timofey Skvortsov
+  - Deirdre F. Gilpin
+  - John W. McGrath
+  - Connor G. G. Bamford
+  - David A. Simpson
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-07-22'
+  link: https://doi.org/g84qpf
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.oprd.3c00417
+  title: 'Enzyme Screening and Engineering for N- and O-Demethylation: Key Steps in
+    the Synthesis of Buprenorphine'
+  authors:
+  - Alexandra T. P. Carvalho
+  - Daniel F. A. R. Dourado
+  - Jenny Spratt
+  - Jill M. Caswell
+  - Timofey Skvortsov
+  - Derek J. Quinn
+  - John S. Carey
+  - Thomas S. Moody
+  publisher: Organic Process Research &amp; Development
+  date: '2024-02-16'
+  link: https://doi.org/gtngfw
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s13073-024-01409-1
+  title: 'SARS-CoV-2 introductions to the island of Ireland: a phylogenetic and geospatiotemporal
+    study of infection dynamics'
+  authors:
+  - Alan M. Rice
+  - Evan P. Troendle
+  - Stephen J. Bridgett
+  - Behnam Firoozi Nejad
+  - Jennifer M. McKinley
+  - Declan T. Bradley
+  - Derek J. Fairley
+  - "Connor\_G.\_G. Bamford"
+  - Timofey Skvortsov
+  - David A. Simpson
+  publisher: Genome Medicine
+  date: '2024-12-19'
+  link: https://doi.org/g84qpg
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2023.02.28.530424
   title: Application of a Machine Learning Approach Towards the Targeted Identification
     of Phage Depolymerases
@@ -106,24 +174,6 @@
   - type: website
     link: https://timskvortsov.github.io/WebDePP/
   image: https://timskvortsov.github.io/WebDePP/assets/DePP.png
-- id: doi:10.1021/acs.oprd.3c00417
-  title: 'Enzyme Screening and Engineering for N- and O-Demethylation: Key Steps in
-    the Synthesis of Buprenorphine'
-  authors:
-  - Alexandra T. P. Carvalho
-  - Daniel F. A. R. Dourado
-  - Jenny Spratt
-  - Jill M. Caswell
-  - Timofey Skvortsov
-  - Derek J. Quinn
-  - John S. Carey
-  - Thomas S. Moody
-  publisher: Organic Process Research &amp; Development
-  date: '2024-02-16'
-  link: https://doi.org/gtngfw
-  orcid: 0000-0002-4048-6725
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1101/2023.01.02.23284109
   title: Genomic assessment of invasion dynamics of SARS-CoV-2 Omicron BA.1
   authors:
@@ -912,6 +962,52 @@
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1371/journal.pone.0284187
+  title: 'The SARS-CoV-2 Alpha variant was associated with increased clinical severity
+    of COVID-19 in Scotland: A genomics-based retrospective cohort analysis'
+  authors:
+  - David J. Pascall
+  - Elen Vink
+  - Rachel Blacow
+  - Naomi Bulteel
+  - Alasdair Campbell
+  - Robyn Campbell
+  - Sarah Clifford
+  - Chris Davis
+  - Ana da Silva Filipe
+  - Noha El Sakka
+  - Ludmila Fjodorova
+  - Ruth Forrest
+  - Emily Goldstein
+  - Rory Gunson
+  - John Haughney
+  - Matthew T. G. Holden
+  - Patrick Honour
+  - Joseph Hughes
+  - Edward James
+  - Tim Lewis
+  - Samantha Lycett
+  - Oscar MacLean
+  - Martin McHugh
+  - Guy Mollett
+  - Yusuke Onishi
+  - Ben Parcell
+  - Surajit Ray
+  - David L. Robertson
+  - Sharif Shabaan
+  - James G. Shepherd
+  - Katherine Smollett
+  - Kate Templeton
+  - Elizabeth Wastnedge
+  - Craig Wilkie
+  - Thomas Williams
+  - Emma C. Thomson
+  publisher: PLOS ONE
+  date: '2023-04-13'
+  link: https://doi.org/g6ghbw
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: isbn:9781119434498
   title: 'Viruses and Other Acellular Infectious Agents: Characteristics and Control'
   authors:
@@ -1670,6 +1766,949 @@
   publisher: Research Square Platform LLC
   date: '2022-11-23'
   link: https://doi.org/gtngf5
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41586-022-04887-8
+  title: 'Publisher Correction: Genomic reconstruction of the SARS CoV-2 epidemic
+    in England'
+  authors:
+  - "Harald S. V\xF6hringer"
+  - Theo Sanderson
+  - Matthew Sinnott
+  - Nicola De Maio
+  - Thuy Nguyen
+  - Richard Goater
+  - Frank Schwach
+  - Ian Harrison
+  - Joel Hellewell
+  - Cristina V. Ariani
+  - "Sonia Gon\xE7alves"
+  - David K. Jackson
+  - Ian Johnston
+  - Alexander W. Jung
+  - Callum Saint
+  - John Sillitoe
+  - Maria Suciu
+  - Nick Goldman
+  - Jasmina Panovska-Griffiths
+  - Irina Abnizova
+  - Louise Aigrain
+  - Alex Alderton
+  - Mozam Ali
+  - Laura Allen
+  - Roberto Amato
+  - Ralph Anderson
+  - Cristina Ariani
+  - Siobhan Austin-Guest
+  - Sendu Bala
+  - Jeffrey Barrett
+  - Andrew Bassett
+  - Kristina Battleday
+  - James Beal
+  - Mathew Beale
+  - Charlotte Beaver
+  - Sam Bellany
+  - Tristram Bellerby
+  - Katie Bellis
+  - Duncan Berger
+  - Matt Berriman
+  - Emma Betteridge
+  - Paul Bevan
+  - Simon Binley
+  - Jason Bishop
+  - Kirsty Blackburn
+  - James Bonfield
+  - Nick Boughton
+  - Sam Bowker
+  - Timothy Brendler-Spaeth
+  - Iraad Bronner
+  - Tanya Brooklyn
+  - Sarah Kay Buddenborg
+  - Robert Bush
+  - Catarina Caetano
+  - Alex Cagan
+  - Nicola Carter
+  - Joanna Cartwright
+  - Tiago Carvalho Monteiro
+  - Liz Chapman
+  - Tracey-Jane Chillingworth
+  - Peter Clapham
+  - Richard Clark
+  - Adrian Clarke
+  - Catriona Clarke
+  - Daryl Cole
+  - Elizabeth Cook
+  - Maria Coppola
+  - Linda Cornell
+  - Clare Cornwell
+  - Craig Corton
+  - Abby Crackett
+  - Alison Cranage
+  - Harriet Craven
+  - Sarah Craw
+  - Mark Crawford
+  - Tim Cutts
+  - Monika Dabrowska
+  - Matt Davies
+  - Robert Davies
+  - Joseph Dawson
+  - Callum Day
+  - Aiden Densem
+  - Thomas Dibling
+  - Cat Dockree
+  - David Dodd
+  - Sunil Dogga
+  - Matthew Dorman
+  - Gordon Dougan
+  - Martin Dougherty
+  - Alexander Dove
+  - Lucy Drummond
+  - Eleanor Drury
+  - Monika Dudek
+  - Jillian Durham
+  - Laura Durrant
+  - Elizabeth Easthope
+  - Sabine Eckert
+  - Pete Ellis
+  - Ben Farr
+  - Michael Fenton
+  - Marcella Ferrero
+  - Neil Flack
+  - Howerd Fordham
+  - Grace Forsythe
+  - Luke Foulser
+  - Matt Francis
+  - Audrey Fraser
+  - Adam Freeman
+  - Anastasia Galvin
+  - Maria Garcia-Casado
+  - Alex Gedny
+  - Sophia Girgis
+  - James Glover
+  - Sonia Goncalves
+  - Scott Goodwin
+  - Oliver Gould
+  - Marina Gourtovaia
+  - Andy Gray
+  - Emma Gray
+  - Coline Griffiths
+  - Yong Gu
+  - Florence Guerin
+  - Will Hamilton
+  - Hannah Hanks
+  - Ewan Harrison
+  - Alexandria Harrott
+  - Edward Harry
+  - Julia Harvison
+  - Paul Heath
+  - Anastasia Hernandez-Koutoucheva
+  - Rhiannon Hobbs
+  - Dave Holland
+  - Sarah Holmes
+  - Gary Hornett
+  - Nicholas Hough
+  - Liz Huckle
+  - Lena Hughes-Hallet
+  - Adam Hunter
+  - Stephen Inglis
+  - Sameena Iqbal
+  - Adam Jackson
+  - David Jackson
+  - Keith James
+  - Dorota Jamrozy
+  - Carlos Jimenez Verdejo
+  - Matthew Jones
+  - Kalyan Kallepally
+  - Leanne Kane
+  - Keely Kay
+  - Sally Kay
+  - Jon Keatley
+  - Alan Keith
+  - Alison King
+  - Lucy Kitchin
+  - Matt Kleanthous
+  - Martina Klimekova
+  - Petra Korlevic
+  - Ksenia Krasheninnkova
+  - Greg Lane
+  - Cordelia Langford
+  - Adam Laverack
+  - Katharine Law
+  - Mara Lawniczak
+  - Stefanie Lensing
+  - Steven Leonard
+  - Laura Letchford
+  - Kevin Lewis
+  - Amanah Lewis-Wade
+  - Jennifer Liddle
+  - Quan Lin
+  - Sarah Lindsay
+  - Sally Linsdell
+  - Rich Livett
+  - Stephanie Lo
+  - Rhona Long
+  - Jamie Lovell
+  - Jon Lovell
+  - Catherine Ludden
+  - James Mack
+  - Mark Maddison
+  - Aleksei Makunin
+  - Irfan Mamun
+  - Jenny Mansfield
+  - Neil Marriott
+  - Matt Martin
+  - Matthew Mayho
+  - Shane McCarthy
+  - Jo McClintock
+  - Samantha McGuigan
+  - Sandra McHugh
+  - Liz McMinn
+  - Carl Meadows
+  - Emily Mobley
+  - Robin Moll
+  - Maria Morra
+  - Leanne Morrow
+  - Kathryn Murie
+  - Sian Nash
+  - Claire Nathwani
+  - Plamena Naydenova
+  - Alexandra Neaverson
+  - Rachel Nelson
+  - Ed Nerou
+  - Jon Nicholson
+  - Tabea Nimz
+  - Guillaume G. Noell
+  - "Sarah O\u2019Meara"
+  - Valeriu Ohan
+  - Karen Oliver
+  - Charles Olney
+  - Doug Ormond
+  - Agnes Oszlanczi
+  - Steve Palmer
+  - Yoke Fei Pang
+  - Barbora Pardubska
+  - Naomi Park
+  - Aaron Parmar
+  - Gaurang Patel
+  - Minal Patel
+  - Maggie Payne
+  - Sharon Peacock
+  - Arabella Petersen
+  - Deborah Plowman
+  - Tom Preston
+  - Liam Prestwood
+  - Christoph Puethe
+  - Michael Quail
+  - Diana Rajan
+  - Shavanthi Rajatileka
+  - Richard Rance
+  - Suzannah Rawlings
+  - Nicholas Redshaw
+  - Joe Reynolds
+  - Mark Reynolds
+  - Simon Rice
+  - Matt Richardson
+  - Connor Roberts
+  - Katrina Robinson
+  - Melanie Robinson
+  - David Robinson
+  - Hazel Rogers
+  - Eduardo Martin Rojo
+  - Daljit Roopra
+  - Mark Rose
+  - Luke Rudd
+  - Ramin Sadri
+  - Nicholas Salmon
+  - David Saul
+  - Frank Schwach
+  - Carol Scott
+  - Phil Seekings
+  - Lesley Shirley
+  - Alison Simms
+  - Matthew Sinnott
+  - Shanthi Sivadasan
+  - Bart Siwek
+  - Dale Sizer
+  - Kenneth Skeldon
+  - Jason Skelton
+  - Joanna Slater-Tunstill
+  - Lisa Sloper
+  - Nathalie Smerdon
+  - Chris Smith
+  - Christen Smith
+  - James Smith
+  - Katie Smith
+  - Michelle Smith
+  - Sean Smith
+  - Tina Smith
+  - Leighton Sneade
+  - Carmen Diaz Soria
+  - Catarina Sousa
+  - Emily Souster
+  - Andrew Sparkes
+  - Michael Spencer-Chapman
+  - Janet Squares
+  - Robert Stanley
+  - Claire Steed
+  - Tim Stickland
+  - Ian Still
+  - Michael R. Stratton
+  - Michelle Strickland
+  - Allen Swann
+  - Agnieszka Swiatkowska
+  - Neil Sycamore
+  - Emma Swift
+  - Edward Symons
+  - Suzanne Szluha
+  - Emma Taluy
+  - Nunu Tao
+  - Katy Taylor
+  - Sam Taylor
+  - Stacey Thompson
+  - Mark Thompson
+  - Mark Thomson
+  - Nicholas Thomson
+  - Scott Thurston
+  - Gerry Tonkin-Hill
+  - Dee Toombs
+  - Benjamin Topping
+  - Jaime Tovar-Corona
+  - Daniel Ungureanu
+  - James Uphill
+  - Jana Urbanova
+  - Philip Jansen Van Vuuren
+  - Valerie Vancollie
+  - Paul Voak
+  - Danielle Walker
+  - Matthew Walker
+  - Matt Waller
+  - Gary Ward
+  - Charlie Weatherhogg
+  - Niki Webb
+  - Danni Weldon
+  - Alan Wells
+  - Eloise Wells
+  - Luke Westwood
+  - Theo Whipp
+  - Thomas Whiteley
+  - Georgia Whitton
+  - Andrew Whitwham
+  - Sara Widaa
+  - Mia Williams
+  - Mark Wilson
+  - Sean Wright
+  - Samuel C. Robson
+  - Thomas R. Connor
+  - Nicholas J. Loman
+  - Tanya Golubchik
+  - Rocio T. Martinez Nunez
+  - David Bonsall
+  - Andrew Rambaut
+  - Luke B. Snell
+  - Catherine Ludden
+  - Sally Corden
+  - Eleni Nastouli
+  - Gaia Nebbia
+  - Katrina Lythgoe
+  - M. Estee Torok
+  - Ian G. Goodfellow
+  - Jacqui A. Prieto
+  - Kordo Saeed
+  - Catherine Houlihan
+  - Dan Frampton
+  - William L. Hamilton
+  - Adam A. Witney
+  - Giselda Bucca
+  - Cassie F. Pope
+  - Catherine Moore
+  - Emma C. Thomson
+  - Ewan M. Harrison
+  - Colin P. Smith
+  - Fiona Rogan
+  - Shaun M. Beckwith
+  - Abigail Murray
+  - Dawn Singleton
+  - Kirstine Eastick
+  - Liz A. Sheridan
+  - Paul Randell
+  - Leigh M. Jackson
+  - "S\xF3nia Gon\xE7alves"
+  - Derek J. Fairley
+  - Matthew W. Loose
+  - Joanne Watkins
+  - Samuel Moses
+  - Sam Nicholls
+  - Matthew Bull
+  - Darren L. Smith
+  - David M. Aanensen
+  - Dinesh Aggarwal
+  - James G. Shepherd
+  - Martin D. Curran
+  - Surendra Parmar
+  - Matthew D. Parker
+  - Catryn Williams
+  - Sharon Glaysher
+  - Anthony P. Underwood
+  - Matthew Bashton
+  - Nicole Pacchiarini
+  - Katie F. Loveson
+  - Matthew Byott
+  - Alessandro M. Carabelli
+  - Kate E. Templeton
+  - Thushan I. de Silva
+  - Dennis Wang
+  - Cordelia F. Langford
+  - Rory N. Gunson
+  - Simon Cottrell
+  - "Justin O\u2019Grady"
+  - Dominic Kwiatkowski
+  - Patrick J. Lillie
+  - Nicholas Cortes
+  - Nathan Moore
+  - Claire Thomas
+  - Phillipa J. Burns
+  - Tabitha W. Mahungu
+  - Steven Liggett
+  - Angela H. Beckett
+  - Matthew T. G. Holden
+  - Lisa J. Levett
+  - Husam Osman
+  - Mohammed O. Hassan-Ibrahim
+  - David A. Simpson
+  - Meera Chand
+  - Ravi K. Gupta
+  - Alistair C. Darby
+  - Steve Paterson
+  - Oliver G. Pybus
+  - Erik Volz
+  - Daniela de Angelis
+  - David L. Robertson
+  - Andrew J. Page
+  - Andrew R. Bassett
+  - Nick Wong
+  - Yusri Taha
+  - Michelle J. Erkiert
+  - Michael H. Spencer Chapman
+  - Rebecca Dewar
+  - Martin P. McHugh
+  - Siddharth Mookerjee
+  - Stephen Aplin
+  - Matthew Harvey
+  - Thea Sass
+  - Helen Umpleby
+  - Helen Wheeler
+  - James P. McKenna
+  - Ben Warne
+  - Joshua F. Taylor
+  - Yasmin Chaudhry
+  - Rhys Izuagbe
+  - Aminu S. Jahun
+  - Gregory R. Young
+  - Claire McMurray
+  - Clare M. McCann
+  - Andrew Nelson
+  - Scott Elliott
+  - Hannah Lowe
+  - Anna Price
+  - Matthew R. Crown
+  - Sara Rey
+  - Sunando Roy
+  - Ben Temperton
+  - Sharif Shaaban
+  - Andrew R. Hesketh
+  - Kenneth G. Laing
+  - Irene M. Monahan
+  - Judith Heaney
+  - Emanuela Pelosi
+  - Siona Silviera
+  - Eleri Wilson-Davies
+  - Helen Fryer
+  - Helen Adams
+  - Louis du Plessis
+  - Rob Johnson
+  - William T. Harvey
+  - Joseph Hughes
+  - Richard J. Orton
+  - Lewis G. Spurgin
+  - Yann Bourgeois
+  - Chris Ruis
+  - "\xC1ine O\u2019Toole"
+  - Theo Sanderson
+  - Christophe Fraser
+  - Jonathan Edgeworth
+  - Judith Breuer
+  - Stephen L. Michell
+  - John A. Todd
+  - Michaela John
+  - David Buck
+  - Kavitha Gajee
+  - Gemma L. Kay
+  - Sharon J. Peacock
+  - David Heyburn
+  - Katie Kitchman
+  - Alan McNally
+  - David T. Pritchard
+  - Samir Dervisevic
+  - Peter Muir
+  - Esther Robinson
+  - Barry B. Vipond
+  - Newara A. Ramadan
+  - Christopher Jeanes
+  - Jana Catalan
+  - Neil Jones
+  - Ana da Silva Filipe
+  - Chris Williams
+  - Marc Fuchs
+  - Julia Miskelly
+  - Aaron R. Jeffries
+  - Naomi R. Park
+  - Amy Ash
+  - Cherian Koshy
+  - Magdalena Barrow
+  - Sarah L. Buchan
+  - Anna Mantzouratou
+  - Gemma Clark
+  - Christopher W. Holmes
+  - Sharon Campbell
+  - Thomas Davis
+  - Ngee Keong Tan
+  - Julianne R. Brown
+  - Kathryn A. Harris
+  - Stephen P. Kidd
+  - Paul R. Grant
+  - Li Xu-McCrae
+  - Alison Cox
+  - Pinglawathee Madona
+  - Marcus Pond
+  - Paul A. Randell
+  - Karen T. Withell
+  - Cheryl Williams
+  - Clive Graham
+  - Rebecca Denton-Smith
+  - Emma Swindells
+  - Robyn Turnbull
+  - Tim J. Sloan
+  - Andrew Bosworth
+  - Stephanie Hutchings
+  - Hannah M. Pymont
+  - Anna Casey
+  - Liz Ratcliffe
+  - Christopher R. Jones
+  - Bridget A. Knight
+  - Tanzina Haque
+  - Jennifer Hart
+  - Dianne Irish-Tavares
+  - Eric Witele
+  - Craig Mower
+  - Louisa K. Watson
+  - Jennifer Collins
+  - Gary Eltringham
+  - Dorian Crudgington
+  - Ben Macklin
+  - Miren Iturriza-Gomara
+  - Anita O. Lucaci
+  - Patrick C. McClure
+  - Matthew Carlile
+  - Nadine Holmes
+  - Christopher Moore
+  - Nathaniel Storey
+  - Stefan Rooke
+  - Gonzalo Yebra
+  - Noel Craine
+  - Malorie Perry
+  - Nabil-Fareed Alikhan
+  - Stephen Bridgett
+  - Kate F. Cook
+  - Christopher Fearn
+  - Salman Goudarzi
+  - Ronan A. Lyons
+  - Thomas Williams
+  - Sam T. Haldenby
+  - Robert M. Davies
+  - Rahul Batra
+  - Beth Blane
+  - Moira J. Spyer
+  - Perminder Smith
+  - Mehmet Yavus
+  - Rachel J. Williams
+  - Adhyana I. K. Mahanama
+  - Buddhini Samaraweera
+  - Sophia T. Girgis
+  - Samantha E. Hansford
+  - Angie Green
+  - Katherine L. Bellis
+  - Matthew J. Dorman
+  - Joshua Quick
+  - Radoslaw Poplawski
+  - Nicola Reynolds
+  - Andrew Mack
+  - Arthur Morriss
+  - Thomas Whalley
+  - Bindi Patel
+  - Iliana Georgana
+  - Myra Hosmillo
+  - Malte L. Pinckert
+  - Joanne Stockton
+  - John H. Henderson
+  - Amy Hollis
+  - William Stanley
+  - Wen C. Yew
+  - Richard Myers
+  - Alicia Thornton
+  - Alexander Adams
+  - Tara Annett
+  - Hibo Asad
+  - Alec Birchley
+  - Jason Coombes
+  - Johnathan M. Evans
+  - Laia Fina
+  - Bree Gatica-Wilcox
+  - Lauren Gilbert
+  - Lee Graham
+  - Jessica Hey
+  - Ember Hilvers
+  - Sophie Jones
+  - Hannah Jones
+  - Sara Kumziene-Summerhayes
+  - Caoimhe McKerr
+  - Jessica Powell
+  - Georgia Pugh
+  - Sarah Taylor
+  - Alexander J. Trotter
+  - Charlotte A. Williams
+  - Leanne M. Kermack
+  - Benjamin H. Foulkes
+  - Marta Gallis
+  - Hailey R. Hornsby
+  - Stavroula F. Louka
+  - Manoj Pohare
+  - Paige Wolverson
+  - Peijun Zhang
+  - George MacIntyre-Cockett
+  - Amy Trebes
+  - Robin J. Moll
+  - Lynne Ferguson
+  - Emily J. Goldstein
+  - Alasdair Maclean
+  - Rachael Tomb
+  - Igor Starinskij
+  - Laura Thomson
+  - Joel Southgate
+  - Moritz U. G. Kraemer
+  - Jayna Raghwani
+  - Alex E. Zarebski
+  - Olivia Boyd
+  - Lily Geidelberg
+  - Chris J. Illingworth
+  - Chris Jackson
+  - David Pascall
+  - Sreenu Vattipally
+  - Timothy M. Freeman
+  - Sharon N. Hsu
+  - Benjamin B. Lindsey
+  - Jaime M. Tovar-Corona
+  - MacGregor Cox
+  - Khalil Abudahab
+  - Mirko Menegazzo
+  - Ben E. W. Taylor
+  - Corin A. Yeats
+  - Afrida Mukaddas
+  - Derek W. Wright
+  - Leonardo de Oliveira Martins
+  - Rachel Colquhoun
+  - Verity Hill
+  - Ben Jackson
+  - J. T. McCrone
+  - Nathan Medd
+  - Emily Scher
+  - Jon-Paul Keatley
+  - Tanya Curran
+  - Sian Morgan
+  - Patrick Maxwell
+  - Ken Smith
+  - Sahar Eldirdiri
+  - Anita Kenyon
+  - Alison H. Holmes
+  - James R. Price
+  - Tim Wyatt
+  - Alison E. Mather
+  - Timofey Skvortsov
+  - John A. Hartley
+  - Martyn Guest
+  - Christine Kitchen
+  - Ian Merrick
+  - Robert Munn
+  - Beatrice Bertolusso
+  - Jessica Lynch
+  - Gabrielle Vernet
+  - Stuart Kirk
+  - Elizabeth Wastnedge
+  - Rachael Stanley
+  - Giles Idle
+  - Declan T. Bradley
+  - Jennifer Poyner
+  - Matilde Mori
+  - Owen Jones
+  - Victoria Wright
+  - Ellena Brooks
+  - Carol M. Churcher
+  - Mireille Fragakis
+  - Katerina Galai
+  - Andrew Jermy
+  - Sarah Judges
+  - Georgina M. McManus
+  - Kim S. Smith
+  - Elaine Westwick
+  - Stephen W. Attwood
+  - Frances Bolt
+  - Alisha Davies
+  - Elen De Lacy
+  - Fatima Downing
+  - Sue Edwards
+  - Lizzie Meadows
+  - Sarah Jeremiah
+  - Nikki Smith
+  - Themoula Charalampous
+  - Amita Patel
+  - Louise Berry
+  - Tim Boswell
+  - Vicki M. Fleming
+  - Hannah C. Howson-Wells
+  - Amelia Joseph
+  - Manjinder Khakh
+  - Michelle M. Lister
+  - Paul W. Bird
+  - Karlie Fallon
+  - Thomas Helmer
+  - Claire L. McMurray
+  - Mina Odedra
+  - Jessica Shaw
+  - Julian W. Tang
+  - Nicholas J. Willford
+  - Victoria Blakey
+  - Veena Raviprakash
+  - Nicola Sheriff
+  - Lesley-Anne Williams
+  - Theresa Feltwell
+  - Luke Bedford
+  - James S. Cargill
+  - Warwick Hughes
+  - Jonathan Moore
+  - Susanne Stonehouse
+  - Laura Atkinson
+  - Jack C. D. Lee
+  - Divya Shah
+  - Adela Alcolea
+  - Natasha Ohemeng-Kumi
+  - John Ramble
+  - Jasveen Sehmi
+  - Rebecca Williams
+  - Wendy Chatterton
+  - Monika Pusok
+  - William Everson
+  - Anibolina Castigador
+  - Emily Macnaughton
+  - Kate El Bouzidi
+  - Temi Lampejo
+  - Malur Sudhanva
+  - Cassie Breen
+  - Graciela Sluga
+  - Shazaad S. Y. Ahmad
+  - Ryan P. George
+  - Nicholas W. Machin
+  - Debbie Binns
+  - Victoria James
+  - Rachel Blacow
+  - Lindsay Coupland
+  - Louise Smith
+  - Edward Barton
+  - Debra Padgett
+  - Garren Scott
+  - Aidan Cross
+  - Mariyam Mirfenderesky
+  - Jane Greenaway
+  - Kevin Cole
+  - Phillip Clarke
+  - Nichola Duckworth
+  - Sarah Walsh
+  - Kelly Bicknell
+  - Robert Impey
+  - Sarah Wyllie
+  - Richard Hopes
+  - Chloe Bishop
+  - Vicki Chalker
+  - Laura Gifford
+  - Zoltan Molnar
+  - Cressida Auckland
+  - Cariad Evans
+  - Kate Johnson
+  - David G. Partridge
+  - Mohammad Raza
+  - Paul Baker
+  - Stephen Bonner
+  - Sarah Essex
+  - Leanne J. Murray
+  - Andrew I. Lawton
+  - Shirelle Burton-Fanning
+  - Brendan A. I. Payne
+  - Sheila Waugh
+  - Andrea N. Gomes
+  - Maimuna Kimuli
+  - Darren R. Murray
+  - Paula Ashfield
+  - Donald Dobie
+  - Fiona Ashford
+  - Angus Best
+  - Liam Crawford
+  - Nicola Cumley
+  - Megan Mayhew
+  - Oliver Megram
+  - Jeremy Mirza
+  - Emma Moles-Garcia
+  - Benita Percival
+  - Leah Ensell
+  - Helen L. Lowe
+  - Laurentiu Maftei
+  - Matteo Mondani
+  - Nicola J. Chaloner
+  - Benjamin J. Cogger
+  - Lisa J. Easton
+  - Hannah Huckson
+  - Jonathan Lewis
+  - Sarah Lowdon
+  - Cassandra S. Malone
+  - Florence Munemo
+  - Manasa Mutingwende
+  - Roberto Nicodemi
+  - Olga Podplomyk
+  - Thomas Somassa
+  - Andrew Beggs
+  - Alex Richter
+  - Claire Cormie
+  - Joana Dias
+  - Sally Forrest
+  - Ellen E. Higginson
+  - Mailis Maes
+  - Jamie Young
+  - Rose K. Davidson
+  - Kathryn A. Jackson
+  - Lance Turtle
+  - Alexander J. Keeley
+  - Jonathan Ball
+  - Timothy Byaruhanga
+  - Joseph G. Chappell
+  - Jayasree Dey
+  - Jack D. Hill
+  - Emily J. Park
+  - Arezou Fanaie
+  - Rachel A. Hilson
+  - Geraldine Yaze
+  - Safiah Afifi
+  - Robert Beer
+  - Joshua Maksimovic
+  - Kathryn McCluggage Masters
+  - Karla Spellman
+  - Catherine Bresner
+  - William Fuller
+  - Angela Marchbank
+  - Trudy Workman
+  - Ekaterina Shelest
+  - Johnny Debebe
+  - Fei Sang
+  - Marina Escalera Zamudio
+  - Sarah Francois
+  - Bernardo Gutierrez
+  - Tetyana I. Vasylyeva
+  - Flavia Flaviani
+  - Manon Ragonnet-Cronin
+  - Katherine L. Smollett
+  - Alice Broos
+  - Daniel Mair
+  - Jenna Nichols
+  - Kyriaki Nomikou
+  - Lily Tong
+  - Ioulia Tsatsani
+  - "Sarah O\u2019Brien"
+  - Steven Rushton
+  - Roy Sanderson
+  - Jon Perkins
+  - Seb Cotton
+  - Abbie Gallagher
+  - Elias Allara
+  - Clare Pearson
+  - David Bibby
+  - Gavin Dabrera
+  - Nicholas Ellaby
+  - Eileen Gallagher
+  - Jonathan Hubb
+  - Angie Lackenby
+  - David Lee
+  - Nikos Manesis
+  - Tamyo Mbisa
+  - Steven Platt
+  - Katherine A. Twohig
+  - Mari Morgan
+  - Alp Aydin
+  - David J. Baker
+  - Ebenezer Foster-Nyarko
+  - Sophie J. Prosolek
+  - Steven Rudder
+  - Chris Baxter
+  - "S\xEDlvia F. Carvalho"
+  - Deborah Lavin
+  - Arun Mariappan
+  - Clara Radulescu
+  - Aditi Singh
+  - Miao Tang
+  - Helen Morcrette
+  - Nadua Bayzid
+  - Marius Cotic
+  - Carlos E. Balcazar
+  - Michael D. Gallagher
+  - Daniel Maloney
+  - Thomas D. Stanton
+  - Kathleen A. Williamson
+  - Robin Manley
+  - Michelle L. Michelsen
+  - Christine M. Sambles
+  - David J. Studholme
+  - Joanna Warwick-Dugdale
+  - Richard Eccles
+  - Matthew Gemmell
+  - Richard Gregory
+  - Margaret Hughes
+  - Charlotte Nelson
+  - Lucille Rainbow
+  - Edith E. Vamos
+  - Hermione J. Webster
+  - Mark Whitehead
+  - Claudia Wierzbicki
+  - Adrienn Angyal
+  - Luke R. Green
+  - Max Whiteley
+  - Iraad F. Bronner
+  - Ben W. Farr
+  - Stefanie V. Lensing
+  - Shane A. McCarthy
+  - Michael A. Quail
+  - Nicholas M. Redshaw
+  - Scott A. J. Thurston
+  - Will Rowe
+  - Amy Gaskin
+  - Thanh Le-Viet
+  - Jennifier Liddle
+  - Ewan Birney
+  - Erik Volz
+  - Sebastian Funk
+  - Dominic Kwiatkowski
+  - Meera Chand
+  - Inigo Martincorena
+  - Jeffrey C. Barrett
+  - Moritz Gerstung
+  publisher: Nature
+  date: '2022-06-07'
+  link: https://doi.org/g84qph
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
@@ -3760,15 +4799,15 @@
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.02.22270110
-  title: "Spatial Growth Rate of Emerging SARS-CoV-2 Lineages in England, September\
+- id: doi:10.1017/S0950268822001285
+  title: "Spatial growth rate of emerging SARS-CoV-2 lineages in England, September\
     \ 2020\u2013December 2021"
   authors:
-  - M.R. Smallman-Raynor
-  - A.D. Cliff
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-02'
-  link: https://doi.org/gtngf7
+  - M. R. Smallman-Raynor
+  - A. D. Cliff
+  publisher: Epidemiology and Infection
+  date: '2022-01-01'
+  link: https://doi.org/g84qpj
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
@@ -3813,6 +4852,32 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2022-01-03'
   link: https://doi.org/gtngf8
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/ve/veac023
+  title: Tracking SARS-CoV-2 Mutations &amp; Variants Through the COG-UK-Mutation
+    Explorer
+  authors:
+  - Derek W Wright
+  - William T Harvey
+  - Joseph Hughes
+  - MacGregor Cox
+  - Thomas P Peacock
+  - Rachel Colquhoun
+  - Ben Jackson
+  - Richard Orton
+  - Morten Nielsen
+  - Nienyun Sharon Hsu
+  - Ewan M Harrison
+  - Thushan I de Silva
+  - Andrew Rambaut
+  - Sharon J Peacock
+  - David L Robertson
+  - Alessandro M Carabelli
+  publisher: Virus Evolution
+  date: '2022-03-18'
+  link: https://doi.org/g6ghbz
   orcid: 0000-0002-4048-6725
   plugin: orcid.py
   file: orcid.yaml
