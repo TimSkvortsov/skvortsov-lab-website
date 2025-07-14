@@ -1,5 +1,54 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.watres.2025.123953
+  title: Combining analysis of individual and wastewater whole genome sequencing improves
+    SARS-CoV-2 surveillance
+  authors:
+  - Evan P. Troendle
+  - Andrew J. Lee
+  - Marina I. Reyne
+  - Danielle M. Allen
+  - Stephen J. Bridgett
+  - Clara H. Radulescu
+  - Michael Glenn
+  - John-Paul Wilkins
+  - Francesco Rubino
+  - Behnam Firoozi Nejad
+  - Cormac McSparron
+  - Marc Niebel
+  - Derek J. Fairley
+  - Kate E. Binley
+  - Christopher J. Creevey
+  - Jennifer M. McKinley
+  - Timofey Skvortsov
+  - Deirdre F. Gilpin
+  - John W. McGrath
+  - "Connor G.\u202FG. Bamford"
+  - David A. Simpson
+  publisher: Water Research
+  date: '2025-09-01'
+  link: https://doi.org/g9s6gw
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12866-025-04054-9
+  title: The effect of sample type and location on industrial workplace sink and hand
+    dryer microbiomes
+  authors:
+  - T. P. Thompson
+  - C. J. Rice
+  - E. Athanasakis
+  - J. Mawhinney
+  - B. F. Gilmore
+  - P. Fitzgerald
+  - T. Skvortsov
+  - S. A. Kelly
+  publisher: BMC Microbiology
+  date: '2025-05-26'
+  link: https://doi.org/g9s6gx
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1186/s13073-024-01409-1
   title: 'SARS-CoV-2 introductions to the island of Ireland: a phylogenetic and geospatiotemporal
     study of infection dynamics'
