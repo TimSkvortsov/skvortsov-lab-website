@@ -1,5 +1,5 @@
 ---
-name: Dr Akash Shambharkar
+name: Akash Shambharkar
 image: images/team_photos/akash-shambharkar.png
 role: alumnus
 ---
