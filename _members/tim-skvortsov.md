@@ -1,5 +1,5 @@
 ---
-name: Timofey Skvortsov
+name: Dr Timofey Skvortsov
 image: images/team_photos/tim-skvortsov.png
 role: pi
 aliases:
