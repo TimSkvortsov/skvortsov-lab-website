@@ -1,6 +1,6 @@
 ---
 name: Yuyang Cao
-image: images/team_photos/Portrait_Placeholder.png
+image: images/team_photos/yuyang_cao.png
 role: phd
 ---
 
