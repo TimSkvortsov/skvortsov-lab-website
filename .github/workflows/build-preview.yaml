@@ -44,7 +44,7 @@ jobs:
       #     gem install bundler
 
 #TS added start; rbenv fix attempt
-      - name: Set up Ruby with rbenv
+      - name: Install Ruby to $RUNNER_TOOL_CACHE
         run: |
           sudo apt-get update
           sudo apt-get install -y git build-essential libssl-dev libreadline-dev zlib1g-dev
@@ -52,16 +52,24 @@ jobs:
           git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
           export PATH="$HOME/.rbenv/bin:$PATH"
           eval "$(~/.rbenv/bin/rbenv init -)"
-          ~/.rbenv/bin/rbenv install 3.3.0  # Or your required Ruby version
-          ~/.rbenv/bin/rbenv global 3.3.0
+          # Install desired Ruby version directly to toolcache
+          ~/.rbenv/plugins/ruby-build/bin/ruby-build 3.3.0 /opt/hostedtoolcache/Ruby/3.3.0/x64
+          touch /opt/hostedtoolcache/Ruby/3.3.0/x64.complete
+          export PATH="/opt/hostedtoolcache/Ruby/3.3.0/x64/bin:$PATH"
           ruby -v
+
+      - name: Install Bundler
+        run: gem install bundler
+
+      - name: Install dependencies with Bundler
+        run: bundle install --jobs 4 --retry 3
  #TS added end    
-      - name: Install Ruby packages
-        if: github.event.action != 'closed'
-        uses: ruby/setup-ruby@v1.172.0
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
+      # - name: Install Ruby packages
+      #   if: github.event.action != 'closed'
+      #   uses: ruby/setup-ruby@v1.172.0
+      #   with:
+      #     ruby-version: "3.1"
+      #     bundler-cache: true
 
       - name: Get Pages url
         if: github.event.action != 'closed'
