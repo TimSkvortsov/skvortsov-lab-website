@@ -45,9 +45,17 @@ jobs:
 
 #TS added start; rbenv fix attempt
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.2 # or your desired version
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git build-essential libssl-dev libreadline-dev zlib1g-dev
+          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+          git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+          echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+          source ~/.bashrc
+          rbenv install 3.3.0  # Or your required Ruby version
+          rbenv global 3.3.0
+          ruby -v
  #TS added end    
       - name: Install Ruby packages
         if: github.event.action != 'closed'
