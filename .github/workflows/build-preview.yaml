@@ -31,17 +31,6 @@ jobs:
           ref: ${{ github.head_ref }}
       
       
-      # - name: Install Ruby manually
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y curl git
-      #     curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash
-      #     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-      #     echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
-      #     source ~/.bashrc
-      #     rbenv install 3.1.0
-      #     rbenv global 3.1.0
-      #     gem install bundler
 
 #TS added start; rbenv fix attempt
       - name: Install Ruby to $RUNNER_TOOL_CACHE
@@ -52,24 +41,23 @@ jobs:
           git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
           export PATH="$HOME/.rbenv/bin:$PATH"
           eval "$(~/.rbenv/bin/rbenv init -)"
-          # Install desired Ruby version directly to toolcache
           ~/.rbenv/plugins/ruby-build/bin/ruby-build 3.3.0 /opt/hostedtoolcache/Ruby/3.3.0/x64
           touch /opt/hostedtoolcache/Ruby/3.3.0/x64.complete
           export PATH="/opt/hostedtoolcache/Ruby/3.3.0/x64/bin:$PATH"
           ruby -v
 
-      - name: Install Bundler
-        run: gem install bundler
+      - name: Install Bundler (user install, safe for all runners)
+        run: |
+          gem install bundler --user-install
+          export PATH="$HOME/.gem/ruby/3.3.0/bin:$PATH"
+          bundler -v
 
       - name: Install dependencies with Bundler
-        run: bundle install --jobs 4 --retry 3
+        run: |
+          export PATH="$HOME/.gem/ruby/3.3.0/bin:$PATH"
+          bundle install --jobs 4 --retry 3
  #TS added end    
-      # - name: Install Ruby packages
-      #   if: github.event.action != 'closed'
-      #   uses: ruby/setup-ruby@v1.172.0
-      #   with:
-      #     ruby-version: "3.1"
-      #     bundler-cache: true
+
 
       - name: Get Pages url
         if: github.event.action != 'closed'
