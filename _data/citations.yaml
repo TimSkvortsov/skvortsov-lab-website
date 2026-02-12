@@ -13,8 +13,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2025.08.06.668922
-  title: A novel approach to <i>Caudoviricetes</i> taxonomy utilising whole proteome
-    structure-structure comparison
+  title: "A novel approach to\n                  <i>Caudoviricetes</i>\n         \
+    \         taxonomy utilising whole proteome structure-structure comparison"
   authors:
   - Linda Smith
   - Thomas S.B. Schmidt
@@ -22,7 +22,7 @@
   - Timofey Skvortsov
   - Colin Hill
   - Andrey N. Shkoporov
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-08-06'
   link: https://doi.org/g9wpm4
   orcid: 0000-0002-4048-6725
@@ -119,7 +119,7 @@
   authors:
   - Damian J. Magill
   - Timofey A. Skvortsov
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-09-24'
   link: https://doi.org/g5893f
   orcid: 0000-0002-4048-6725
@@ -198,7 +198,7 @@
   - John W. McGrath
   - Connor G. G. Bamford
   - David A. Simpson
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-07-22'
   link: https://doi.org/g84qpf
   orcid: 0000-0002-4048-6725
@@ -228,7 +228,7 @@
   authors:
   - Damian J. Magill
   - Timofey A. Skvortsov
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-02-28'
   link: https://doi.org/gsbrkm
   orcid: 0000-0002-4048-6725
@@ -310,7 +310,7 @@
   - Andrew Rambaut
   - Oliver G. Pybus
   - Moritz U.G. Kraemer
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-01-04'
   link: https://doi.org/gtngfx
   orcid: 0000-0002-4048-6725
@@ -351,7 +351,7 @@
   - David Bonsall
   - Ann Sarah Walker
   - Katrina Lythgoe
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-01-30'
   link: https://doi.org/gtngfz
   orcid: 0000-0002-4048-6725
@@ -1776,7 +1776,7 @@
   - Jeff Barrett
   - Ann Sarah Walker
   - David Bonsall
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-01-06'
   link: https://doi.org/gtngf4
   orcid: 0000-0002-4048-6725
@@ -3491,7 +3491,7 @@
   - Kathryn Harris
   - Thomas P Peacock
   - Nicholas J Loman
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-03-02'
   link: https://doi.org/gtngf6
   orcid: 0000-0002-4048-6725
@@ -4907,7 +4907,7 @@
   - Massimo Palmarini
   - Surajit Ray
   - Emma C. Thomson
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-01-03'
   link: https://doi.org/gtngf8
   orcid: 0000-0002-4048-6725
@@ -4968,7 +4968,7 @@
   - Zack Richards
   - David Bonsall
   - Katrina A. Lythgoe
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-12-02'
   link: https://doi.org/gszk4z
   orcid: 0000-0002-4048-6725
@@ -5034,7 +5034,7 @@
   - Oliver G. Pybus
   - Andrew Rambaut
   - Moritz U.G. Kraemer
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-12-21'
   link: https://doi.org/gnztcw
   orcid: 0000-0002-4048-6725
@@ -6004,7 +6004,7 @@
   - Christine V. F. Carrington
   - Kate Templeton
   - Andrew Rambaut
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-12-14'
   link: https://doi.org/gtngf9
   orcid: 0000-0002-4048-6725
@@ -6084,12 +6084,6 @@
   - Xuan Yao
   - Lance Turtle
   - Susanna Dunachie
-  - Mala K. Maini
-  - Graham Ogg
-  - Julian C. Knight
-  - Yanchun Peng
-  - Sarah L. Rowland-Jones
-  - Tao Dong
   - David M. Aanensen
   - Khalil Abudahab
   - Helen Adams
@@ -6717,6 +6711,9 @@
   - Jamie Young
   - Alex E. Zarebski
   - Peijun Zhang
+  - Mala K. Maini
+  - Graham Ogg
+  - Julian C. Knight
   - J. Kenneth Baillie
   - Malcolm G. Semple
   - Peter J.M. Openshaw
@@ -7081,6 +7078,9 @@
   - Andrew Workman
   - Bryan Yates
   - Peter Young
+  - Yanchun Peng
+  - Sarah L. Rowland-Jones
+  - Tao Dong
   publisher: iScience
   date: '2021-11-01'
   link: https://doi.org/gsbrmn
@@ -7135,15 +7135,15 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2020.05.31.126490
-  title: Rapid<i>Mycobacterium tuberculosis</i>spoligotyping from uncorrected long
-    reads using Galru
+  title: "Rapid\n                  <i>Mycobacterium tuberculosis</i>\n           \
+    \       spoligotyping from uncorrected long reads using Galru"
   authors:
   - Andrew J. Page
   - Nabil-Fareed Alikhan
   - Michael Strinden
   - Thanh Le Viet
   - Timofey Skvortsov
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-06-01'
   link: https://doi.org/gsbrkq
   orcid: 0000-0002-4048-6725
@@ -7155,7 +7155,7 @@
   - Damian J. Magill
   - Leonid A. Kulakov
   - Timofey A. Skvortsov
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2019-04-25'
   link: https://doi.org/gkxkns
   orcid: 0000-0002-4048-6725
