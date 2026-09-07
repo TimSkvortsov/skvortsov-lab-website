@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.06.26.734901
+  title: 'Ptolemaea: consensus, comprehensive annotation of antiviral defence systems
+    in bacterial genomes'
+  authors:
+  - Emmet B. T. Campbell
+  - Timofey Skvortsov
+  - Christopher J. Creevey
+  publisher: openRxiv
+  date: '2026-06-28'
+  link: https://doi.org/hb9kc8
+  orcid: 0000-0002-4048-6725
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1007/s00253-026-13891-1
   title: First experimentally characterised Proteus phage endolysins have distinct
     metal cofactor dependencies
