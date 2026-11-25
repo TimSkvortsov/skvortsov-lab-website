@@ -38,7 +38,7 @@ We are based at the School of Pharmacy, Queen's University Belfast. If you would
 {% include section.html %}
 <h2 class="center">Our address</h2>
 <p class="center">
-Room 03.013, McClay Research Centre<br> 
+Room 03.022, McClay Research Centre<br> 
 School of Pharmacy, Queen's University Belfast<br> 
 97 Lisburn Road, Belfast BT9 7BL, Northern Ireland, UK<br>
 </p>
